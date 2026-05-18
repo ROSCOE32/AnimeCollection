@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "dgSpecHash": "tAqyaLuLFjQ=",
+  "success": true,
+  "projectFilePath": "C:\\BAC 2-3\\App info 2\\ProjetAppInfo2\\AnimeCollection\\AnimeCollection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fallo\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.3.10\\microsoft.aspnetcore.authentication.cookies.2.3.10.nupkg.sha512",
+    "C:\\Users\\fallo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\10.0.8\\microsoft.aspnetcore.cryptography.keyderivation.10.0.8.nupkg.sha512",
+    "C:\\Users\\fallo\\.nuget\\packages\\microsoft.extensions.dependencymodel\\10.0.0\\microsoft.extensions.dependencymodel.10.0.0.nupkg.sha512",
+    "C:\\Users\\fallo\\.nuget\\packages\\npgsql\\10.0.2\\npgsql.10.0.2.nupkg.sha512",
+    "C:\\Users\\fallo\\.nuget\\packages\\serilog\\4.3.0\\serilog.4.3.0.nupkg.sha512",
+    "C:\\Users\\fallo\\.nuget\\packages\\serilog.aspnetcore\\10.0.0\\serilog.aspnetcore.10.0.0.nupkg.sha512",
+    "C:\\Users\\fallo\\.nuget\\packages\\serilog.extensions.hosting\\10.0.0\\serilog.extensions.hosting.10.0.0.nupkg.sha512",
+    "C:\\Users\\fallo\\.nuget\\packages\\serilog.extensions.logging\\10.0.0\\serilog.extensions.logging.10.0.0.nupkg.sha512",
+    "C:\\Users\\fallo\\.nuget\\packages\\serilog.formatting.compact\\3.0.0\\serilog.formatting.compact.3.0.0.nupkg.sha512",
+    "C:\\Users\\fallo\\.nuget\\packages\\serilog.settings.configuration\\10.0.0\\serilog.settings.configuration.10.0.0.nupkg.sha512",
+    "C:\\Users\\fallo\\.nuget\\packages\\serilog.sinks.console\\6.1.1\\serilog.sinks.console.6.1.1.nupkg.sha512",
+    "C:\\Users\\fallo\\.nuget\\packages\\serilog.sinks.debug\\3.0.0\\serilog.sinks.debug.3.0.0.nupkg.sha512",
+    "C:\\Users\\fallo\\.nuget\\packages\\serilog.sinks.file\\7.0.0\\serilog.sinks.file.7.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "Le PackageReference Microsoft.AspNetCore.Authentication.Cookies ne sera pas supprimé. Envisagez de retirer ce package de vos dépendances, car il est probablement inutile.",
+      "projectPath": "C:\\BAC 2-3\\App info 2\\ProjetAppInfo2\\AnimeCollection\\AnimeCollection.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\BAC 2-3\\App info 2\\ProjetAppInfo2\\AnimeCollection\\AnimeCollection.csproj",
+      "libraryId": "Microsoft.AspNetCore.Authentication.Cookies",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "Le PackageReference Microsoft.AspNetCore.Cryptography.KeyDerivation ne sera pas supprimé. Envisagez de retirer ce package de vos dépendances, car il est probablement inutile.",
+      "projectPath": "C:\\BAC 2-3\\App info 2\\ProjetAppInfo2\\AnimeCollection\\AnimeCollection.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\BAC 2-3\\App info 2\\ProjetAppInfo2\\AnimeCollection\\AnimeCollection.csproj",
+      "libraryId": "Microsoft.AspNetCore.Cryptography.KeyDerivation",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

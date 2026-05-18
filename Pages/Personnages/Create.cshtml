@@ -1,0 +1,44 @@
+@page
+@model AnimeCollection.Pages.Personnages.CreateModel
+
+@{
+    ViewData["Title"] = "Ajouter un personnage";
+}
+
+<h1>Ajouter un personnage</h1>
+
+<form method="post">
+    <div asp-validation-summary="All"></div>
+
+    <div>
+        <label asp-for="Personnage.Name"></label>
+        <input asp-for="Personnage.Name" />
+        <span asp-validation-for="Personnage.Name"></span>
+    </div>
+
+    <div>
+        <label asp-for="Personnage.Description"></label>
+        <textarea asp-for="Personnage.Description"></textarea>
+        <span asp-validation-for="Personnage.Description"></span>
+    </div>
+
+    <div>
+        <label asp-for="Personnage.Status"></label>
+        <select asp-for="Personnage.Status" asp-items="Model.StatusOptions">
+            <option value="">-- Choisir un statut --</option>
+        </select>
+        <span asp-validation-for="Personnage.Status"></span>
+    </div>
+
+    <div>
+        <label asp-for="Personnage.AnimeId"></label>
+        <select asp-for="Personnage.AnimeId" asp-items="Model.AnimeOptions">
+            <option value="">-- Choisir un animé --</option>
+        </select>
+        <span asp-validation-for="Personnage.AnimeId"></span>
+    </div>
+
+    <button type="submit">Ajouter</button>
+</form>
+
+<a asp-page="Index">Retour à la liste</a>
