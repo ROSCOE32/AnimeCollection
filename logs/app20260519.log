@@ -49,3 +49,584 @@
 2026-05-19 12:06:59.315 +02:00 [INF] Executed page /Personnages/Details in 36.7197ms
 2026-05-19 12:06:59.317 +02:00 [INF] Executed endpoint '/Personnages/Details'
 2026-05-19 12:06:59.319 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages/Details/1 - 200 null text/html; charset=utf-8 66.5035ms
+2026-05-19 12:15:46.307 +02:00 [INF] User profile is available. Using 'C:\Users\fallo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-19 12:15:46.466 +02:00 [INF] Now listening on: http://localhost:5150
+2026-05-19 12:15:46.469 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-19 12:15:46.470 +02:00 [INF] Hosting environment: Development
+2026-05-19 12:15:46.471 +02:00 [INF] Content root path: C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection
+2026-05-19 12:15:47.837 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/ - null null
+2026-05-19 12:15:47.896 +02:00 [INF] Executing endpoint '/Index'
+2026-05-19 12:15:47.941 +02:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2026-05-19 12:15:47.953 +02:00 [INF] Executing handler method AnimeCollection.Pages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:15:47.956 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:15:47.962 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:15:47.964 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:15:48.120 +02:00 [INF] Executed page /Index in 170.2826ms
+2026-05-19 12:15:48.129 +02:00 [INF] Executed endpoint '/Index'
+2026-05-19 12:15:48.138 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/ - 200 null text/html; charset=utf-8 303.8947ms
+2026-05-19 12:15:48.344 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/favicon.ico - null null
+2026-05-19 12:15:48.395 +02:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\wwwroot\favicon.ico'
+2026-05-19 12:15:48.398 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/favicon.ico - 200 5430 image/x-icon 56.0076ms
+2026-05-19 12:15:51.465 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/personnages - null null
+2026-05-19 12:15:51.472 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-19 12:15:51.494 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-19 12:15:51.784 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:15:51.856 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:15:51.857 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:15:51.858 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:15:51.885 +02:00 [INF] Executed page /Personnages/Index in 389.3383ms
+2026-05-19 12:15:51.887 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-19 12:15:51.895 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/personnages - 200 null text/html; charset=utf-8 430.1558ms
+2026-05-19 12:15:55.015 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages/Create - null null
+2026-05-19 12:15:55.023 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:15:55.045 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:15:55.050 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnGet - ModelState is "Valid"
+2026-05-19 12:15:55.058 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:15:55.060 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:15:55.061 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:15:55.133 +02:00 [INF] Executed page /Personnages/Create in 85.7884ms
+2026-05-19 12:15:55.135 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:15:55.137 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages/Create - 200 null text/html; charset=utf-8 121.6595ms
+2026-05-19 12:16:16.465 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5150/Personnages/Create - application/x-www-form-urlencoded 308
+2026-05-19 12:16:16.471 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:16:16.472 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:16:16.513 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnPost - ModelState is "Valid"
+2026-05-19 12:16:16.532 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2026-05-19 12:16:16.537 +02:00 [INF] Executing RedirectToPageResult, redirecting to Index.
+2026-05-19 12:16:16.540 +02:00 [INF] Executed page /Personnages/Create in 66.1844ms
+2026-05-19 12:16:16.542 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:16:16.544 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5150/Personnages/Create - 302 0 null 79.3051ms
+2026-05-19 12:16:16.549 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-19 12:16:16.555 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-19 12:16:16.556 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-19 12:16:16.558 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:16:16.562 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:16:16.564 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:16:16.565 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:16:16.571 +02:00 [INF] Executed page /Personnages/Index in 13.2757ms
+2026-05-19 12:16:16.573 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-19 12:16:16.574 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 24.6362ms
+2026-05-19 12:16:23.770 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages/Create - null null
+2026-05-19 12:16:23.774 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:16:23.775 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:16:23.779 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnGet - ModelState is "Valid"
+2026-05-19 12:16:23.781 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:16:23.783 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:16:23.785 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:16:23.791 +02:00 [INF] Executed page /Personnages/Create in 12.9701ms
+2026-05-19 12:16:23.811 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:16:23.814 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages/Create - 200 null text/html; charset=utf-8 44.1041ms
+2026-05-19 12:16:38.735 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5150/Personnages/Create - application/x-www-form-urlencoded 292
+2026-05-19 12:16:38.739 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:16:38.741 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:16:38.744 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnPost - ModelState is "Valid"
+2026-05-19 12:16:38.748 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2026-05-19 12:16:38.750 +02:00 [INF] Executing RedirectToPageResult, redirecting to Index.
+2026-05-19 12:16:38.752 +02:00 [INF] Executed page /Personnages/Create in 10.1468ms
+2026-05-19 12:16:38.754 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:16:38.755 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5150/Personnages/Create - 302 0 null 20.3343ms
+2026-05-19 12:16:38.763 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-19 12:16:38.766 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-19 12:16:38.768 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-19 12:16:38.770 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:16:38.775 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:16:38.776 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:16:38.777 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:16:38.781 +02:00 [INF] Executed page /Personnages/Index in 11.9441ms
+2026-05-19 12:16:38.783 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-19 12:16:38.784 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 21.7168ms
+2026-05-19 12:16:50.750 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages/Create - null null
+2026-05-19 12:16:50.754 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:16:50.756 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:16:50.758 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnGet - ModelState is "Valid"
+2026-05-19 12:16:50.760 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:16:50.762 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:16:50.763 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:16:50.768 +02:00 [INF] Executed page /Personnages/Create in 10.3813ms
+2026-05-19 12:16:50.774 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:16:50.788 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages/Create - 200 null text/html; charset=utf-8 37.826ms
+2026-05-19 12:17:56.374 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5150/Personnages/Create - application/x-www-form-urlencoded 331
+2026-05-19 12:17:56.377 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:17:56.379 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:17:56.382 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnPost - ModelState is "Invalid"
+2026-05-19 12:17:56.385 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:17:56.390 +02:00 [INF] Executed page /Personnages/Create in 9.1819ms
+2026-05-19 12:17:56.392 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:17:56.393 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5150/Personnages/Create - 200 null text/html; charset=utf-8 19.0095ms
+2026-05-19 12:18:14.574 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5150/Personnages/Create - application/x-www-form-urlencoded 337
+2026-05-19 12:18:14.578 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:18:14.580 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:18:14.583 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnPost - ModelState is "Valid"
+2026-05-19 12:18:14.591 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2026-05-19 12:18:14.593 +02:00 [INF] Executing RedirectToPageResult, redirecting to Index.
+2026-05-19 12:18:14.594 +02:00 [INF] Executed page /Personnages/Create in 12.3485ms
+2026-05-19 12:18:14.595 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:18:14.597 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5150/Personnages/Create - 302 0 null 23.2609ms
+2026-05-19 12:18:14.607 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-19 12:18:14.611 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-19 12:18:14.612 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-19 12:18:14.614 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:18:14.616 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:18:14.618 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:18:14.620 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:18:14.623 +02:00 [INF] Executed page /Personnages/Index in 9.2133ms
+2026-05-19 12:18:14.624 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-19 12:18:14.625 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 18.8312ms
+2026-05-19 12:18:25.286 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages/Details/4 - null null
+2026-05-19 12:18:25.289 +02:00 [INF] Executing endpoint '/Personnages/Details'
+2026-05-19 12:18:25.310 +02:00 [INF] Route matched with {page = "/Personnages/Details"}. Executing page /Personnages/Details
+2026-05-19 12:18:25.313 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.DetailsModel.OnGet - ModelState is "Valid"
+2026-05-19 12:18:25.319 +02:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:18:25.336 +02:00 [INF] Executed page /Personnages/Details in 24.3351ms
+2026-05-19 12:18:25.340 +02:00 [INF] Executed endpoint '/Personnages/Details'
+2026-05-19 12:18:25.342 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages/Details/4 - 200 null text/html; charset=utf-8 55.9848ms
+2026-05-19 12:18:28.088 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-19 12:18:28.091 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-19 12:18:28.093 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-19 12:18:28.095 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:18:28.097 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:18:28.099 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:18:28.100 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:18:28.103 +02:00 [INF] Executed page /Personnages/Index in 8.1927ms
+2026-05-19 12:18:28.105 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-19 12:18:28.108 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 19.6851ms
+2026-05-19 12:18:38.890 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages/Create - null null
+2026-05-19 12:18:38.893 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:18:38.895 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:18:38.897 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnGet - ModelState is "Valid"
+2026-05-19 12:18:38.900 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:18:38.902 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:18:38.903 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:18:38.906 +02:00 [INF] Executed page /Personnages/Create in 9.2661ms
+2026-05-19 12:18:38.987 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:18:38.990 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages/Create - 200 null text/html; charset=utf-8 99.4294ms
+2026-05-19 12:19:20.898 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5150/Personnages/Create - application/x-www-form-urlencoded 313
+2026-05-19 12:19:20.900 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:19:20.901 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:19:20.902 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnPost - ModelState is "Valid"
+2026-05-19 12:19:20.911 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2026-05-19 12:19:20.913 +02:00 [INF] Executing RedirectToPageResult, redirecting to Index.
+2026-05-19 12:19:20.915 +02:00 [INF] Executed page /Personnages/Create in 13.3703ms
+2026-05-19 12:19:20.916 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:19:20.918 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5150/Personnages/Create - 302 0 null 19.6851ms
+2026-05-19 12:19:20.926 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-19 12:19:20.928 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-19 12:19:20.933 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-19 12:19:20.935 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:19:20.937 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:19:20.941 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:19:20.941 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:19:20.943 +02:00 [INF] Executed page /Personnages/Index in 8.6592ms
+2026-05-19 12:19:20.945 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-19 12:19:20.951 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 25.5715ms
+2026-05-19 12:19:24.400 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages/Create - null null
+2026-05-19 12:19:24.402 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:19:24.403 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:19:24.405 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnGet - ModelState is "Valid"
+2026-05-19 12:19:24.407 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:19:24.408 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:19:24.409 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:19:24.411 +02:00 [INF] Executed page /Personnages/Create in 6.3514ms
+2026-05-19 12:19:24.412 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:19:24.419 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages/Create - 200 null text/html; charset=utf-8 19.2852ms
+2026-05-19 12:19:54.808 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5150/Personnages/Create - application/x-www-form-urlencoded 316
+2026-05-19 12:19:54.810 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:19:54.811 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:19:54.813 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnPost - ModelState is "Valid"
+2026-05-19 12:19:54.821 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2026-05-19 12:19:54.823 +02:00 [INF] Executing RedirectToPageResult, redirecting to Index.
+2026-05-19 12:19:54.824 +02:00 [INF] Executed page /Personnages/Create in 12.25ms
+2026-05-19 12:19:54.825 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:19:54.827 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5150/Personnages/Create - 302 0 null 18.8988ms
+2026-05-19 12:19:54.835 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-19 12:19:54.841 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-19 12:19:54.842 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-19 12:19:54.843 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:19:54.845 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:19:54.846 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:19:54.847 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:19:54.849 +02:00 [INF] Executed page /Personnages/Index in 6.6796ms
+2026-05-19 12:19:54.853 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-19 12:19:54.856 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 20.7401ms
+2026-05-19 12:20:44.086 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages/Create - null null
+2026-05-19 12:20:44.089 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:20:44.090 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:20:44.091 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnGet - ModelState is "Valid"
+2026-05-19 12:20:44.093 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:20:44.094 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:20:44.095 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:20:44.098 +02:00 [INF] Executed page /Personnages/Create in 7.1687ms
+2026-05-19 12:20:44.100 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:20:44.102 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages/Create - 200 null text/html; charset=utf-8 15.5066ms
+2026-05-19 12:21:04.589 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5150/Personnages/Create - application/x-www-form-urlencoded 314
+2026-05-19 12:21:04.593 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:21:04.595 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:21:04.759 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnPost - ModelState is "Valid"
+2026-05-19 12:21:04.765 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2026-05-19 12:21:04.766 +02:00 [INF] Executing RedirectToPageResult, redirecting to Index.
+2026-05-19 12:21:04.767 +02:00 [INF] Executed page /Personnages/Create in 169.6066ms
+2026-05-19 12:21:04.768 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:21:04.769 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5150/Personnages/Create - 302 0 null 180.0483ms
+2026-05-19 12:21:04.775 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-19 12:21:04.777 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-19 12:21:04.778 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-19 12:21:04.779 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:21:04.783 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:21:04.785 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:21:04.785 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:21:04.787 +02:00 [INF] Executed page /Personnages/Index in 8.4471ms
+2026-05-19 12:21:04.788 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-19 12:21:04.790 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 14.537ms
+2026-05-19 12:21:08.137 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages/Create - null null
+2026-05-19 12:21:08.139 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:21:08.141 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:21:08.143 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnGet - ModelState is "Valid"
+2026-05-19 12:21:08.145 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:21:08.152 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:21:08.158 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:21:08.161 +02:00 [INF] Executed page /Personnages/Create in 18.8995ms
+2026-05-19 12:21:08.218 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:21:08.220 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages/Create - 200 null text/html; charset=utf-8 82.2891ms
+2026-05-19 12:21:29.656 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5150/Personnages/Create - application/x-www-form-urlencoded 325
+2026-05-19 12:21:29.658 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:21:29.659 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:21:29.661 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnPost - ModelState is "Valid"
+2026-05-19 12:21:29.669 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2026-05-19 12:21:29.670 +02:00 [INF] Executing RedirectToPageResult, redirecting to Index.
+2026-05-19 12:21:29.672 +02:00 [INF] Executed page /Personnages/Create in 11.0642ms
+2026-05-19 12:21:29.673 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:21:29.674 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5150/Personnages/Create - 302 0 null 18.5011ms
+2026-05-19 12:21:29.684 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-19 12:21:29.687 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-19 12:21:29.688 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-19 12:21:29.689 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:21:29.692 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:21:29.693 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:21:29.694 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:21:29.696 +02:00 [INF] Executed page /Personnages/Index in 7.2586ms
+2026-05-19 12:21:29.698 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-19 12:21:29.703 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 18.5457ms
+2026-05-19 12:21:31.694 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages/Create - null null
+2026-05-19 12:21:31.698 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:21:31.699 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:21:31.701 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnGet - ModelState is "Valid"
+2026-05-19 12:21:31.704 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:21:31.705 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:21:31.705 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:21:31.707 +02:00 [INF] Executed page /Personnages/Create in 6.0683ms
+2026-05-19 12:21:31.709 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:21:31.710 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages/Create - 200 null text/html; charset=utf-8 15.7447ms
+2026-05-19 12:21:48.949 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5150/Personnages/Create - application/x-www-form-urlencoded 323
+2026-05-19 12:21:48.951 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:21:48.952 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:21:48.954 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnPost - ModelState is "Valid"
+2026-05-19 12:21:48.962 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2026-05-19 12:21:48.963 +02:00 [INF] Executing RedirectToPageResult, redirecting to Index.
+2026-05-19 12:21:48.964 +02:00 [INF] Executed page /Personnages/Create in 11.1166ms
+2026-05-19 12:21:48.965 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:21:48.966 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5150/Personnages/Create - 302 0 null 17.4209ms
+2026-05-19 12:21:48.975 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-19 12:21:48.977 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-19 12:21:48.978 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-19 12:21:48.979 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:21:48.981 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:21:48.982 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:21:48.983 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:21:48.985 +02:00 [INF] Executed page /Personnages/Index in 6.2014ms
+2026-05-19 12:21:48.988 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-19 12:21:48.989 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 14.6622ms
+2026-05-19 12:21:58.452 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages/Create - null null
+2026-05-19 12:21:58.454 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:21:58.455 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:21:58.457 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnGet - ModelState is "Valid"
+2026-05-19 12:21:58.459 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:21:58.460 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:21:58.461 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:21:58.464 +02:00 [INF] Executed page /Personnages/Create in 7.3335ms
+2026-05-19 12:21:58.466 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:21:58.468 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages/Create - 200 null text/html; charset=utf-8 16.2742ms
+2026-05-19 12:23:30.077 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5150/Personnages/Create - application/x-www-form-urlencoded 442
+2026-05-19 12:23:30.079 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:23:30.080 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:23:30.083 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnPost - ModelState is "Valid"
+2026-05-19 12:23:30.091 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2026-05-19 12:23:30.092 +02:00 [INF] Executing RedirectToPageResult, redirecting to Index.
+2026-05-19 12:23:30.093 +02:00 [INF] Executed page /Personnages/Create in 10.9691ms
+2026-05-19 12:23:30.094 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:23:30.095 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5150/Personnages/Create - 302 0 null 18.3104ms
+2026-05-19 12:23:30.103 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-19 12:23:30.106 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-19 12:23:30.106 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-19 12:23:30.108 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:23:30.110 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:23:30.112 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:23:30.113 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:23:30.115 +02:00 [INF] Executed page /Personnages/Index in 7.6762ms
+2026-05-19 12:23:30.118 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-19 12:23:30.122 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 18.3676ms
+2026-05-19 12:23:58.072 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages/Create - null null
+2026-05-19 12:23:58.076 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:23:58.077 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:23:58.079 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnGet - ModelState is "Valid"
+2026-05-19 12:23:58.081 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:23:58.082 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:23:58.083 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:23:58.086 +02:00 [INF] Executed page /Personnages/Create in 7.3811ms
+2026-05-19 12:23:58.117 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:23:58.119 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages/Create - 200 null text/html; charset=utf-8 47.3106ms
+2026-05-19 12:24:19.187 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5150/Personnages/Create - application/x-www-form-urlencoded 336
+2026-05-19 12:24:19.189 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:24:19.190 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:24:19.193 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnPost - ModelState is "Valid"
+2026-05-19 12:24:19.201 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2026-05-19 12:24:19.202 +02:00 [INF] Executing RedirectToPageResult, redirecting to Index.
+2026-05-19 12:24:19.203 +02:00 [INF] Executed page /Personnages/Create in 11.446ms
+2026-05-19 12:24:19.204 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:24:19.205 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5150/Personnages/Create - 302 0 null 18.102ms
+2026-05-19 12:24:19.216 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-19 12:24:19.218 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-19 12:24:19.219 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-19 12:24:19.220 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:24:19.223 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:24:19.225 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:24:19.225 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:24:19.228 +02:00 [INF] Executed page /Personnages/Index in 8.1258ms
+2026-05-19 12:24:19.229 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-19 12:24:19.230 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 14.6657ms
+2026-05-19 12:24:26.100 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages/Create - null null
+2026-05-19 12:24:26.102 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:24:26.103 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:24:26.105 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnGet - ModelState is "Valid"
+2026-05-19 12:24:26.107 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:24:26.109 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:24:26.111 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:24:26.114 +02:00 [INF] Executed page /Personnages/Create in 9.7436ms
+2026-05-19 12:24:26.154 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:24:26.155 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages/Create - 200 null text/html; charset=utf-8 54.4836ms
+2026-05-19 12:24:54.833 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5150/Personnages/Create - application/x-www-form-urlencoded 295
+2026-05-19 12:24:54.835 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:24:54.835 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:24:54.837 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnPost - ModelState is "Valid"
+2026-05-19 12:24:54.840 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2026-05-19 12:24:54.842 +02:00 [INF] Executing RedirectToPageResult, redirecting to Index.
+2026-05-19 12:24:54.842 +02:00 [INF] Executed page /Personnages/Create in 6.223ms
+2026-05-19 12:24:54.843 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:24:54.844 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5150/Personnages/Create - 302 0 null 11.2554ms
+2026-05-19 12:24:54.853 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-19 12:24:54.855 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-19 12:24:54.856 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-19 12:24:54.857 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:24:54.858 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:24:54.859 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:24:54.860 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:24:54.863 +02:00 [INF] Executed page /Personnages/Index in 6.9387ms
+2026-05-19 12:24:54.869 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-19 12:24:54.870 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 17.1672ms
+2026-05-19 12:25:08.497 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages/Create - null null
+2026-05-19 12:25:08.500 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:25:08.500 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:25:08.501 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnGet - ModelState is "Valid"
+2026-05-19 12:25:08.503 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:25:08.505 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:25:08.506 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:25:08.508 +02:00 [INF] Executed page /Personnages/Create in 6.772ms
+2026-05-19 12:25:08.510 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:25:08.511 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages/Create - 200 null text/html; charset=utf-8 13.3187ms
+2026-05-19 12:25:58.635 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5150/Personnages/Create - application/x-www-form-urlencoded 359
+2026-05-19 12:25:58.637 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:25:58.638 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:25:58.640 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnPost - ModelState is "Valid"
+2026-05-19 12:25:58.642 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2026-05-19 12:25:58.644 +02:00 [INF] Executing RedirectToPageResult, redirecting to Index.
+2026-05-19 12:25:58.645 +02:00 [INF] Executed page /Personnages/Create in 5.3627ms
+2026-05-19 12:25:58.646 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:25:58.647 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5150/Personnages/Create - 302 0 null 11.9842ms
+2026-05-19 12:25:58.653 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-19 12:25:58.656 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-19 12:25:58.658 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-19 12:25:58.660 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:25:58.662 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:25:58.663 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:25:58.664 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:25:58.666 +02:00 [INF] Executed page /Personnages/Index in 6.1876ms
+2026-05-19 12:25:58.666 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-19 12:25:58.667 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 14.3983ms
+2026-05-19 12:26:33.432 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages/Edit/4 - null null
+2026-05-19 12:26:33.434 +02:00 [INF] Executing endpoint '/Personnages/Edit'
+2026-05-19 12:26:33.443 +02:00 [INF] Route matched with {page = "/Personnages/Edit"}. Executing page /Personnages/Edit
+2026-05-19 12:26:33.622 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.EditModel.OnGet - ModelState is "Valid"
+2026-05-19 12:26:33.630 +02:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:26:33.656 +02:00 [INF] Executed page /Personnages/Edit in 211.171ms
+2026-05-19 12:26:33.657 +02:00 [INF] Executed endpoint '/Personnages/Edit'
+2026-05-19 12:26:33.658 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages/Edit/4 - 200 null text/html; charset=utf-8 225.5089ms
+2026-05-19 12:26:55.612 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-19 12:26:55.614 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-19 12:26:55.616 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-19 12:26:55.617 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:26:55.619 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:26:55.620 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:26:55.621 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:26:55.623 +02:00 [INF] Executed page /Personnages/Index in 6.2414ms
+2026-05-19 12:26:55.625 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-19 12:26:55.626 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 14.1339ms
+2026-05-19 12:27:05.439 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages/Details/3 - null null
+2026-05-19 12:27:05.441 +02:00 [INF] Executing endpoint '/Personnages/Details'
+2026-05-19 12:27:05.442 +02:00 [INF] Route matched with {page = "/Personnages/Details"}. Executing page /Personnages/Details
+2026-05-19 12:27:05.444 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.DetailsModel.OnGet - ModelState is "Valid"
+2026-05-19 12:27:05.446 +02:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:27:05.449 +02:00 [INF] Executed page /Personnages/Details in 4.7957ms
+2026-05-19 12:27:05.451 +02:00 [INF] Executed endpoint '/Personnages/Details'
+2026-05-19 12:27:05.452 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages/Details/3 - 200 null text/html; charset=utf-8 12.9505ms
+2026-05-19 12:27:07.149 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-19 12:27:07.151 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-19 12:27:07.152 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-19 12:27:07.154 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:27:07.156 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:27:07.157 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:27:07.158 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:27:07.159 +02:00 [INF] Executed page /Personnages/Index in 5.405ms
+2026-05-19 12:27:07.160 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-19 12:27:07.161 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 12.0279ms
+2026-05-19 12:27:09.560 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages/Edit/3 - null null
+2026-05-19 12:27:09.562 +02:00 [INF] Executing endpoint '/Personnages/Edit'
+2026-05-19 12:27:09.563 +02:00 [INF] Route matched with {page = "/Personnages/Edit"}. Executing page /Personnages/Edit
+2026-05-19 12:27:09.568 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.EditModel.OnGet - ModelState is "Valid"
+2026-05-19 12:27:09.573 +02:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:27:09.576 +02:00 [INF] Executed page /Personnages/Edit in 11.9294ms
+2026-05-19 12:27:09.582 +02:00 [INF] Executed endpoint '/Personnages/Edit'
+2026-05-19 12:27:09.584 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages/Edit/3 - 200 null text/html; charset=utf-8 24.0774ms
+2026-05-19 12:28:14.194 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5150/Personnages/Edit/3 - application/x-www-form-urlencoded 465
+2026-05-19 12:28:14.196 +02:00 [INF] Executing endpoint '/Personnages/Edit'
+2026-05-19 12:28:14.197 +02:00 [INF] Route matched with {page = "/Personnages/Edit"}. Executing page /Personnages/Edit
+2026-05-19 12:28:14.199 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.EditModel.OnPost - ModelState is "Valid"
+2026-05-19 12:28:14.213 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2026-05-19 12:28:14.214 +02:00 [INF] Executing RedirectToPageResult, redirecting to Index.
+2026-05-19 12:28:14.215 +02:00 [INF] Executed page /Personnages/Edit in 17.1215ms
+2026-05-19 12:28:14.216 +02:00 [INF] Executed endpoint '/Personnages/Edit'
+2026-05-19 12:28:14.217 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5150/Personnages/Edit/3 - 302 0 null 23.1368ms
+2026-05-19 12:28:14.224 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-19 12:28:14.227 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-19 12:28:14.228 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-19 12:28:14.229 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:28:14.232 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:28:14.234 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:28:14.235 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:28:14.237 +02:00 [INF] Executed page /Personnages/Index in 7.9407ms
+2026-05-19 12:28:14.238 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-19 12:28:14.240 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 15.0613ms
+2026-05-19 12:28:18.354 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages/Edit/3 - null null
+2026-05-19 12:28:18.356 +02:00 [INF] Executing endpoint '/Personnages/Edit'
+2026-05-19 12:28:18.358 +02:00 [INF] Route matched with {page = "/Personnages/Edit"}. Executing page /Personnages/Edit
+2026-05-19 12:28:18.359 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.EditModel.OnGet - ModelState is "Valid"
+2026-05-19 12:28:18.363 +02:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:28:18.366 +02:00 [INF] Executed page /Personnages/Edit in 7.2559ms
+2026-05-19 12:28:18.368 +02:00 [INF] Executed endpoint '/Personnages/Edit'
+2026-05-19 12:28:18.369 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages/Edit/3 - 200 null text/html; charset=utf-8 14.417ms
+2026-05-19 12:28:23.885 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5150/Personnages/Edit/3 - application/x-www-form-urlencoded 465
+2026-05-19 12:28:23.888 +02:00 [INF] Executing endpoint '/Personnages/Edit'
+2026-05-19 12:28:23.889 +02:00 [INF] Route matched with {page = "/Personnages/Edit"}. Executing page /Personnages/Edit
+2026-05-19 12:28:23.890 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.EditModel.OnPost - ModelState is "Valid"
+2026-05-19 12:28:23.899 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2026-05-19 12:28:23.900 +02:00 [INF] Executing RedirectToPageResult, redirecting to Index.
+2026-05-19 12:28:23.902 +02:00 [INF] Executed page /Personnages/Edit in 11.9026ms
+2026-05-19 12:28:23.903 +02:00 [INF] Executed endpoint '/Personnages/Edit'
+2026-05-19 12:28:23.904 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5150/Personnages/Edit/3 - 302 0 null 18.9304ms
+2026-05-19 12:28:23.914 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-19 12:28:23.917 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-19 12:28:23.918 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-19 12:28:23.920 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:28:23.923 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:28:23.925 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:28:23.925 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:28:23.927 +02:00 [INF] Executed page /Personnages/Index in 8.347ms
+2026-05-19 12:28:23.930 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-19 12:28:23.932 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 17.3382ms
+2026-05-19 12:28:26.869 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages/Edit/7 - null null
+2026-05-19 12:28:26.870 +02:00 [INF] Executing endpoint '/Personnages/Edit'
+2026-05-19 12:28:26.871 +02:00 [INF] Route matched with {page = "/Personnages/Edit"}. Executing page /Personnages/Edit
+2026-05-19 12:28:26.872 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.EditModel.OnGet - ModelState is "Valid"
+2026-05-19 12:28:26.876 +02:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:28:26.879 +02:00 [INF] Executed page /Personnages/Edit in 6.7299ms
+2026-05-19 12:28:26.881 +02:00 [INF] Executed endpoint '/Personnages/Edit'
+2026-05-19 12:28:26.883 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages/Edit/7 - 200 null text/html; charset=utf-8 14.317ms
+2026-05-19 12:28:29.725 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5150/Personnages/Edit/7 - application/x-www-form-urlencoded 329
+2026-05-19 12:28:29.727 +02:00 [INF] Executing endpoint '/Personnages/Edit'
+2026-05-19 12:28:29.728 +02:00 [INF] Route matched with {page = "/Personnages/Edit"}. Executing page /Personnages/Edit
+2026-05-19 12:28:29.730 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.EditModel.OnPost - ModelState is "Valid"
+2026-05-19 12:28:29.740 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2026-05-19 12:28:29.741 +02:00 [INF] Executing RedirectToPageResult, redirecting to Index.
+2026-05-19 12:28:29.743 +02:00 [INF] Executed page /Personnages/Edit in 13.1468ms
+2026-05-19 12:28:29.744 +02:00 [INF] Executed endpoint '/Personnages/Edit'
+2026-05-19 12:28:29.744 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5150/Personnages/Edit/7 - 302 0 null 19.5036ms
+2026-05-19 12:28:29.752 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-19 12:28:29.754 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-19 12:28:29.755 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-19 12:28:29.756 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:28:29.758 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:28:29.759 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:28:29.759 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:28:29.761 +02:00 [INF] Executed page /Personnages/Index in 4.81ms
+2026-05-19 12:28:29.762 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-19 12:28:29.767 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 14.4333ms
+2026-05-19 12:28:32.996 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages/Edit/7 - null null
+2026-05-19 12:28:32.998 +02:00 [INF] Executing endpoint '/Personnages/Edit'
+2026-05-19 12:28:32.999 +02:00 [INF] Route matched with {page = "/Personnages/Edit"}. Executing page /Personnages/Edit
+2026-05-19 12:28:33.000 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.EditModel.OnGet - ModelState is "Valid"
+2026-05-19 12:28:33.003 +02:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:28:33.005 +02:00 [INF] Executed page /Personnages/Edit in 4.6534ms
+2026-05-19 12:28:33.006 +02:00 [INF] Executed endpoint '/Personnages/Edit'
+2026-05-19 12:28:33.009 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages/Edit/7 - 200 null text/html; charset=utf-8 12.4796ms
+2026-05-19 12:28:36.832 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5150/Personnages/Edit/7 - application/x-www-form-urlencoded 330
+2026-05-19 12:28:36.834 +02:00 [INF] Executing endpoint '/Personnages/Edit'
+2026-05-19 12:28:36.835 +02:00 [INF] Route matched with {page = "/Personnages/Edit"}. Executing page /Personnages/Edit
+2026-05-19 12:28:36.837 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.EditModel.OnPost - ModelState is "Valid"
+2026-05-19 12:28:36.839 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2026-05-19 12:28:36.841 +02:00 [INF] Executing RedirectToPageResult, redirecting to Index.
+2026-05-19 12:28:36.842 +02:00 [INF] Executed page /Personnages/Edit in 6.0004ms
+2026-05-19 12:28:36.844 +02:00 [INF] Executed endpoint '/Personnages/Edit'
+2026-05-19 12:28:36.845 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5150/Personnages/Edit/7 - 302 0 null 12.4863ms
+2026-05-19 12:28:36.856 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-19 12:28:36.857 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-19 12:28:36.858 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-19 12:28:36.858 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:28:36.860 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:28:36.861 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:28:36.861 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:28:36.863 +02:00 [INF] Executed page /Personnages/Index in 4.8312ms
+2026-05-19 12:28:36.864 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-19 12:28:36.874 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 18.0136ms
+2026-05-19 12:28:52.011 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages?Search=Armin - null null
+2026-05-19 12:28:52.013 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-19 12:28:52.014 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-19 12:28:52.019 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:28:52.027 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:28:52.028 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:28:52.029 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:28:52.030 +02:00 [INF] Executed page /Personnages/Index in 14.367ms
+2026-05-19 12:28:52.032 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-19 12:28:52.033 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages?Search=Armin - 200 null text/html; charset=utf-8 21.3942ms
+2026-05-19 12:28:56.664 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages/Create - null null
+2026-05-19 12:28:56.667 +02:00 [INF] Executing endpoint '/Personnages/Create'
+2026-05-19 12:28:56.668 +02:00 [INF] Route matched with {page = "/Personnages/Create"}. Executing page /Personnages/Create
+2026-05-19 12:28:56.669 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.CreateModel.OnGet - ModelState is "Valid"
+2026-05-19 12:28:56.672 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:28:56.673 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:28:56.674 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:28:56.676 +02:00 [INF] Executed page /Personnages/Create in 6.5146ms
+2026-05-19 12:28:56.677 +02:00 [INF] Executed endpoint '/Personnages/Create'
+2026-05-19 12:28:56.678 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages/Create - 200 null text/html; charset=utf-8 13.6363ms
+2026-05-19 12:28:58.688 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-19 12:28:58.690 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-19 12:28:58.691 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-19 12:28:58.693 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:28:58.695 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:28:58.697 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:28:58.697 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:28:58.699 +02:00 [INF] Executed page /Personnages/Index in 6.0205ms
+2026-05-19 12:28:58.701 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-19 12:28:58.704 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 15.3065ms
+2026-05-19 12:36:54.521 +02:00 [INF] User profile is available. Using 'C:\Users\fallo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-19 12:36:54.730 +02:00 [INF] Now listening on: http://localhost:5150
+2026-05-19 12:36:54.733 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-19 12:36:54.734 +02:00 [INF] Hosting environment: Development
+2026-05-19 12:36:54.735 +02:00 [INF] Content root path: C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection
