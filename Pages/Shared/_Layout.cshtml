@@ -29,6 +29,19 @@
                     </ul>
                 </div>
             </div>
+            @if (User.Identity?.IsAuthenticated == true)
+            {
+                <span>Bonjour, @User.Identity.Name</span>
+
+                <form method="post" asp-page="/Account/Logout" style="display:inline">
+                    <button type="submit">Déconnexion</button>
+                </form>
+            }
+            else
+            {
+                <a asp-page="/Account/Login">Connexion</a>
+                <a asp-page="/Account/Register">Inscription</a>
+            }
         </nav>
     </header>
     <div class="container">

@@ -3,9 +3,11 @@ using AnimeCollection.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AnimeCollection.Pages.Personnages;
 
+[Authorize]
 public class CreateModel : PageModel
 {
     private readonly PersonnageService _personnageService;

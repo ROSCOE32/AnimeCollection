@@ -79,6 +79,6 @@ public class LoginModel : PageModel
             "CookieAuth",
             principal);
 
-        return RedirectToPage("/Index");
+        return RedirectToPage("/Personnages/Index");
     }
 }
