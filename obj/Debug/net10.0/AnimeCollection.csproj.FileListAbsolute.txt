@@ -108,3 +108,4 @@ C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\obj\Debug\net10.0\refint\An
 C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\obj\Debug\net10.0\AnimeCollection.pdb
 C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\obj\Debug\net10.0\AnimeCollection.genruntimeconfig.cache
 C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\obj\Debug\net10.0\ref\AnimeCollection.dll
+C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\obj\Debug\net10.0\AnimeCollection.sourcelink.json

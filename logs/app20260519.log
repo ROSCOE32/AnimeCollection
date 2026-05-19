@@ -1,0 +1,51 @@
+2026-05-19 12:06:44.499 +02:00 [INF] User profile is available. Using 'C:\Users\fallo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-19 12:06:44.691 +02:00 [INF] Now listening on: http://localhost:5150
+2026-05-19 12:06:44.695 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-19 12:06:44.696 +02:00 [INF] Hosting environment: Development
+2026-05-19 12:06:44.696 +02:00 [INF] Content root path: C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection
+2026-05-19 12:06:51.392 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/ - null null
+2026-05-19 12:06:51.444 +02:00 [INF] Executing endpoint '/Index'
+2026-05-19 12:06:51.497 +02:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2026-05-19 12:06:51.513 +02:00 [INF] Executing handler method AnimeCollection.Pages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:06:51.517 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:06:51.523 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:06:51.525 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:06:51.687 +02:00 [INF] Executed page /Index in 180.0028ms
+2026-05-19 12:06:51.692 +02:00 [INF] Executed endpoint '/Index'
+2026-05-19 12:06:51.710 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/ - 200 null text/html; charset=utf-8 323.5326ms
+2026-05-19 12:06:51.734 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-05-19 12:06:51.734 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/lib/jquery/dist/jquery.min.js - null null
+2026-05-19 12:06:51.734 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/AnimeCollection.styles.css?v=UjIRZ2E2kf3I0Fy-14dzQaMkAGN9sLLYVV9uE_5kntU - null null
+2026-05-19 12:06:51.735 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-05-19 12:06:51.735 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2026-05-19 12:06:51.742 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-05-19 12:06:51.763 +02:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2026-05-19 12:06:51.782 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 48.6132ms
+2026-05-19 12:06:51.763 +02:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2026-05-19 12:06:51.763 +02:00 [INF] The file /js/site.js was not modified
+2026-05-19 12:06:51.771 +02:00 [INF] The file /css/site.css was not modified
+2026-05-19 12:06:51.775 +02:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2026-05-19 12:06:51.763 +02:00 [INF] The file /AnimeCollection.styles.css was not modified
+2026-05-19 12:06:51.856 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/lib/jquery/dist/jquery.min.js - 304 null text/javascript 123.9299ms
+2026-05-19 12:06:51.857 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 124.3121ms
+2026-05-19 12:06:51.866 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 304 null text/css 133.3261ms
+2026-05-19 12:06:51.871 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 129.2061ms
+2026-05-19 12:06:51.875 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/AnimeCollection.styles.css?v=UjIRZ2E2kf3I0Fy-14dzQaMkAGN9sLLYVV9uE_5kntU - 304 null text/css 142.625ms
+2026-05-19 12:06:56.414 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/personnages - null null
+2026-05-19 12:06:56.459 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-19 12:06:56.503 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-19 12:06:56.978 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-19 12:06:57.112 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-19 12:06:57.115 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-19 12:06:57.116 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:06:57.170 +02:00 [INF] Executed page /Personnages/Index in 665.7357ms
+2026-05-19 12:06:57.172 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-19 12:06:57.181 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/personnages - 200 null text/html; charset=utf-8 766.1252ms
+2026-05-19 12:06:59.253 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages/Details/1 - null null
+2026-05-19 12:06:59.262 +02:00 [INF] Executing endpoint '/Personnages/Details'
+2026-05-19 12:06:59.277 +02:00 [INF] Route matched with {page = "/Personnages/Details"}. Executing page /Personnages/Details
+2026-05-19 12:06:59.283 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.DetailsModel.OnGet - ModelState is "Valid"
+2026-05-19 12:06:59.295 +02:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-19 12:06:59.315 +02:00 [INF] Executed page /Personnages/Details in 36.7197ms
+2026-05-19 12:06:59.317 +02:00 [INF] Executed endpoint '/Personnages/Details'
+2026-05-19 12:06:59.319 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages/Details/1 - 200 null text/html; charset=utf-8 66.5035ms
