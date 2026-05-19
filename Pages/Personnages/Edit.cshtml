@@ -7,7 +7,7 @@
 
 <h1>Modifier un personnage</h1>
 
-<form method="post">
+<form method="post" enctype="multipart/form-data">
 
     <input type="hidden" asp-for="Personnage.Id" />
 
@@ -53,6 +53,26 @@
         </select>
 
         <span asp-validation-for="Personnage.AnimeId"></span>
+    </div>
+    @if (!string.IsNullOrEmpty(Model.Personnage.ImagePath))
+    {
+        <p>Image actuelle :</p>
+
+        <img src="@Model.Personnage.ImagePath"
+             alt="@Model.Personnage.Name"
+             width="200" />
+    }
+    <div>
+
+        <label asp-for="Image">
+            Nouvelle image
+        </label>
+
+        <input type="file"
+               asp-for="Image" />
+
+        <span asp-validation-for="Image"></span>
+
     </div>
 
     <button type="submit">

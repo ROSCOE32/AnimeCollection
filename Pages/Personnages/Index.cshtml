@@ -19,7 +19,7 @@
         <th>Nom</th>
         <th>Animé</th>
         <th>Statut</th>
-        <th>Actions</th>
+		<th>Image</th>
     </tr>
 
     @foreach (var personnage in Model.Personnages)
@@ -28,6 +28,12 @@
             <td>@personnage.Name</td>
             <td>@personnage.AnimeTitle</td>
             <td>@personnage.Status</td>
+            <td>
+                @if (!string.IsNullOrEmpty(personnage.ImagePath))
+                {
+                    <img src="@personnage.ImagePath" alt="@personnage.Name" width="80" />
+                }
+            </td>
             <td>
                 <a asp-page="Details" asp-route-id="@personnage.Id">Détails</a>
                 |

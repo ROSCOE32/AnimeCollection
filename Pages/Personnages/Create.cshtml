@@ -7,7 +7,7 @@
 
 <h1>Ajouter un personnage</h1>
 
-<form method="post">
+<form method="post" enctype="multipart/form-data">
     <div asp-validation-summary="All"></div>
 
     <div>
@@ -36,6 +36,11 @@
             <option value="">-- Choisir un animé --</option>
         </select>
         <span asp-validation-for="Personnage.AnimeId"></span>
+    </div>
+    <div>
+        <label asp-for="Image">Image du personnage</label>
+        <input type="file" asp-for="Image" />
+        <span asp-validation-for="Image"></span>
     </div>
 
     <button type="submit">Ajouter</button>

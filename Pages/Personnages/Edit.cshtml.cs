@@ -25,7 +25,9 @@ public class EditModel : PageModel
     public List<SelectListItem> AnimeOptions { get; set; } = new();
 
     public List<SelectListItem> StatusOptions { get; set; } = new();
-
+    
+    [BindProperty]
+    public IFormFile? Image { get; set; }
     public IActionResult OnGet(int id)
     {
         LoadOptions();
@@ -50,6 +52,57 @@ public class EditModel : PageModel
             return Page();
         }
 
+        if (Image is not null && Image.Length > 0)
+        {
+            var allowedExtensions =
+                new[] { ".jpg", ".jpeg", ".png", ".webp" };
+
+            var extension =
+                Path.GetExtension(Image.FileName)
+                    .ToLower();
+
+            if (!allowedExtensions.Contains(extension))
+            {
+                LoadOptions();
+
+                ModelState.AddModelError(
+                    "Image",
+                    "Type d'image non autorisé");
+
+                return Page();
+            }
+
+            if (Image.Length > 5 * 1024 * 1024)
+            {
+                LoadOptions();
+
+                ModelState.AddModelError(
+                    "Image",
+                    "Image trop volumineuse");
+
+                return Page();
+            }
+
+            var uploadsDir =
+                Path.Combine("wwwroot", "uploads");
+
+            Directory.CreateDirectory(uploadsDir);
+
+            var fileName =
+                $"{Guid.NewGuid()}{extension}";
+
+            var filePath =
+                Path.Combine(uploadsDir, fileName);
+
+            using var stream =
+                new FileStream(filePath, FileMode.Create);
+
+            Image.CopyTo(stream);
+
+            Personnage.ImagePath =
+                $"/uploads/{fileName}";
+        }
+        
         var updated = _personnageService.Update(Personnage);
 
         if (!updated)
