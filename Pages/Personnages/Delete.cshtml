@@ -1,0 +1,39 @@
+@page "{id:int}"
+@model AnimeCollection.Pages.Personnages.DeleteModel
+
+@{
+    ViewData["Title"] = "Supprimer un personnage";
+}
+
+<h1>Supprimer un personnage</h1>
+
+<h3>
+    Êtes-vous sûr de vouloir supprimer ce personnage ?
+</h3>
+
+<p>
+    <strong>Nom :</strong>
+    @Model.Personnage.Name
+</p>
+
+<p>
+    <strong>Animé :</strong>
+    @Model.Personnage.AnimeTitle
+</p>
+
+<form method="post">
+
+    <input type="hidden"
+           asp-for="Personnage.Id" />
+
+    <button type="submit">
+        Supprimer
+    </button>
+
+</form>
+
+<p>
+    <a asp-page="Index">
+        Retour à la liste
+    </a>
+</p>
