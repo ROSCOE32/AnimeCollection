@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Npgsql;
 using Serilog;
 
+
 Log.Logger = new LoggerConfiguration()
     .WriteTo.Console()
     .WriteTo.File(
@@ -33,6 +34,7 @@ builder.Services.AddAuthentication("CookieAuth")
         options.LoginPath = "/Account/Login";
         options.AccessDeniedPath = "/Account/AccessDenied";
     });
+builder.Services.AddScoped<UserService>();
 
 builder.Services.AddAuthorization();
 

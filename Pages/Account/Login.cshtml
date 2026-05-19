@@ -1,0 +1,42 @@
+@page
+@model AnimeCollection.Pages.Account.LoginModel
+
+@{
+    ViewData["Title"] = "Connexion";
+}
+
+<h1>Connexion</h1>
+
+<form method="post">
+
+    <div asp-validation-summary="All"></div>
+
+    <div>
+        <label asp-for="Email"></label>
+
+        <input asp-for="Email"
+               type="email" />
+
+        <span asp-validation-for="Email"></span>
+    </div>
+
+    <div>
+        <label asp-for="Password"></label>
+
+        <input asp-for="Password"
+               type="password" />
+
+        <span asp-validation-for="Password"></span>
+    </div>
+
+    <button type="submit">
+        Se connecter
+    </button>
+
+</form>
+
+<p>
+    <a asp-page="Register">
+        Créer un compte
+    </a>
+</p>
