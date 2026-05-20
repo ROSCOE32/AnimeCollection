@@ -2,9 +2,11 @@ using AnimeCollection.Models;
 using AnimeCollection.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AnimeCollection.Pages.Personnages;
 
+[Authorize(Roles = "Admin")]
 public class DeleteModel : PageModel
 {
     private readonly PersonnageService _personnageService;
