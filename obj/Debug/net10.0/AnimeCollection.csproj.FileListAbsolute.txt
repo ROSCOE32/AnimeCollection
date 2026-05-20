@@ -108,4 +108,4 @@ C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\obj\Debug\net10.0\AnimeColl
 C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\obj\Debug\net10.0\AnimeCollection.genruntimeconfig.cache
 C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\obj\Debug\net10.0\ref\AnimeCollection.dll
 C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\obj\Debug\net10.0\AnimeCollection.sourcelink.json
-C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\obj\Debug\net10.0\compressed\wcvx6vu49j-{0}-kwio5k3m6j-kwio5k3m6j.gz
+C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\obj\Debug\net10.0\compressed\wcvx6vu49j-{0}-7qxopkubnk-7qxopkubnk.gz

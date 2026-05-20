@@ -310,3 +310,19 @@ body {
   margin-bottom: 0.7rem;
   font-weight: 600;
 }
+
+.error-page {
+  max-width: 800px;
+  margin: 5rem auto;
+  padding: 3rem;
+  text-align: center;
+  background: #f8f3ed;
+  border: 1px solid #ff4d6d;
+  border-radius: 20px;
+  box-shadow: 0 0 18px rgba(255,77,109,0.12);
+}
+
+.error-page h1 {
+  color: #c1121f;
+  font-size: 3rem;
+}
