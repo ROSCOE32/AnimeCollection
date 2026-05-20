@@ -7,40 +7,41 @@
 
 <h1>Personnages</h1>
 
-<a asp-page="Create">Ajouter un personnage</a>
+<div class="page-actions">
+    <a class="btn" asp-page="Create">Ajouter un personnage</a>
+</div>
 
-<form method="get">
+<form method="get" class="search-form">
     <input asp-for="Search" placeholder="Rechercher un personnage ou un animé" />
     <button type="submit">Rechercher</button>
 </form>
 
-<table>
-    <tr>
-        <th>Nom</th>
-        <th>Animé</th>
-        <th>Statut</th>
-		<th>Image</th>
-    </tr>
-
+<div class="card-grid">
     @foreach (var personnage in Model.Personnages)
     {
-        <tr>
-            <td>@personnage.Name</td>
-            <td>@personnage.AnimeTitle</td>
-            <td>@personnage.Status</td>
-            <td>
-                @if (!string.IsNullOrEmpty(personnage.ImagePath))
-                {
-                    <img src="@personnage.ImagePath" alt="@personnage.Name" width="80" />
-                }
-            </td>
-            <td>
-                <a asp-page="Details" asp-route-id="@personnage.Id">Détails</a>
-                |
-                <a asp-page="Edit" asp-route-id="@personnage.Id">Modifier</a>
-                |
-                <a asp-page="Delete" asp-route-id="@personnage.Id">Supprimer</a>
-            </td>
-        </tr>
+        <div class="character-card">
+            @if (!string.IsNullOrEmpty(personnage.ImagePath))
+            {
+                <img src="@personnage.ImagePath"
+                     alt="@personnage.Name"
+                     class="character-image" />
+            }
+
+            <div class="character-content">
+                <h2>@personnage.Name</h2>
+                <p><strong>Animé :</strong> @personnage.AnimeTitle</p>
+                <p><strong>Statut :</strong> @personnage.Status</p>
+
+                <div class="card-actions">
+                    <a asp-page="Details" asp-route-id="@personnage.Id">Détails</a>
+                    <a asp-page="Edit" asp-route-id="@personnage.Id">Modifier</a>
+
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a asp-page="Delete" asp-route-id="@personnage.Id">Supprimer</a>
+                    }
+                </div>
+            </div>
+        </div>
     }
-</table>
+</div>

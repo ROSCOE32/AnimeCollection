@@ -62,6 +62,6 @@ public class RegisterModel : PageModel
 
         TempData["Message"] = "Compte créé avec succès";
 
-        return RedirectToPage("Index");
+        return RedirectToPage("/Account/Login");
     }
 }
