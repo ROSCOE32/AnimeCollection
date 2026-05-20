@@ -1,10 +1,43 @@
 ﻿@page
 @model IndexModel
+
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Accueil";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<section class="hero">
+    <div class="hero-content">
+        <p class="hero-kicker">Collection de personnages d'animés</p>
+
+        <h1>Gère ta collection de personnages d’animés</h1>
+
+        <p class="hero-text">
+            Ajoute tes personnages préférés, associe-les à leurs animés,
+            marque-les en favoris et construis ta propre collection.
+        </p>
+
+        <div class="hero-actions">
+            <a class="btn" asp-page="/Personnages/Index">
+                Voir les personnages
+            </a>
+
+            @if (User.Identity?.IsAuthenticated != true)
+            {
+                <a class="btn-secondary" asp-page="/Account/Register">
+                    Créer un compte
+                </a>
+            }
+        </div>
+    </div>
+
+    <div class="hero-card">
+        <h2>Fonctionnalités</h2>
+
+        <ul>
+            <li>CRUD complet des personnages</li>
+            <li>Upload d’images</li>
+            <li>Favoris personnalisés</li>
+            <li>Connexion et rôles utilisateur</li>
+        </ul>
+    </div>
+</section>

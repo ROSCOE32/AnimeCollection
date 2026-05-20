@@ -3211,3 +3211,199 @@ DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error
 2026-05-20 14:11:26.698 +02:00 [INF] Executed page /Personnages/Favoris in 15.8385ms
 2026-05-20 14:11:26.701 +02:00 [INF] Executed endpoint '/Personnages/Favoris'
 2026-05-20 14:11:26.703 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages/Favoris - 200 null text/html; charset=utf-8 30.9767ms
+2026-05-20 16:01:51.456 +02:00 [INF] User profile is available. Using 'C:\Users\fallo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-20 16:01:51.697 +02:00 [INF] Now listening on: http://localhost:5150
+2026-05-20 16:01:51.700 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-20 16:01:51.702 +02:00 [INF] Hosting environment: Development
+2026-05-20 16:01:51.703 +02:00 [INF] Content root path: C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection
+2026-05-20 16:01:53.217 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/ - null null
+2026-05-20 16:01:53.288 +02:00 [INF] Executing endpoint '/Index'
+2026-05-20 16:01:53.351 +02:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2026-05-20 16:01:53.368 +02:00 [INF] Executing handler method AnimeCollection.Pages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-20 16:01:53.372 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-20 16:01:53.379 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-20 16:01:53.383 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-20 16:01:54.174 +02:00 [INF] Executed page /Index in 816.1053ms
+2026-05-20 16:01:54.202 +02:00 [INF] Executed endpoint '/Index'
+2026-05-20 16:01:54.223 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/ - 200 null text/html; charset=utf-8 1015.3324ms
+2026-05-20 16:01:54.236 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/css/site.css?v=vIiqe8-N2OEW-mvRMvPpYOCJTZLFoYVHUc20qIGKOa0 - null null
+2026-05-20 16:01:54.273 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\wwwroot\css\site.css'
+2026-05-20 16:01:54.281 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/css/site.css?v=vIiqe8-N2OEW-mvRMvPpYOCJTZLFoYVHUc20qIGKOa0 - 200 5055 text/css 45.7844ms
+2026-05-20 16:02:05.443 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/ - null null
+2026-05-20 16:02:05.454 +02:00 [INF] Executing endpoint '/Index'
+2026-05-20 16:02:05.456 +02:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2026-05-20 16:02:05.459 +02:00 [INF] Executing handler method AnimeCollection.Pages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-20 16:02:05.471 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-20 16:02:05.473 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-20 16:02:05.487 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-20 16:02:05.508 +02:00 [INF] Executed page /Index in 50.0668ms
+2026-05-20 16:02:05.511 +02:00 [INF] Executed endpoint '/Index'
+2026-05-20 16:02:05.513 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/ - 200 null text/html; charset=utf-8 70.1078ms
+2026-05-20 16:02:05.587 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/css/site.css?v=vIiqe8-N2OEW-mvRMvPpYOCJTZLFoYVHUc20qIGKOa0 - null null
+2026-05-20 16:02:05.599 +02:00 [INF] The file /css/site.css was not modified
+2026-05-20 16:02:05.601 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/css/site.css?v=vIiqe8-N2OEW-mvRMvPpYOCJTZLFoYVHUc20qIGKOa0 - 304 null text/css 14.0943ms
+2026-05-20 16:02:08.793 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/index - null null
+2026-05-20 16:02:08.803 +02:00 [INF] Executing endpoint '/Index'
+2026-05-20 16:02:08.819 +02:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2026-05-20 16:02:08.822 +02:00 [INF] Executing handler method AnimeCollection.Pages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-20 16:02:08.824 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-20 16:02:08.826 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-20 16:02:08.831 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-20 16:02:08.851 +02:00 [INF] Executed page /Index in 29.3992ms
+2026-05-20 16:02:08.853 +02:00 [INF] Executed endpoint '/Index'
+2026-05-20 16:02:08.856 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/index - 200 null text/html; charset=utf-8 62.3319ms
+2026-05-20 16:03:28.572 +02:00 [INF] User profile is available. Using 'C:\Users\fallo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-20 16:03:28.810 +02:00 [INF] Now listening on: http://localhost:5150
+2026-05-20 16:03:28.817 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-20 16:03:28.819 +02:00 [INF] Hosting environment: Development
+2026-05-20 16:03:28.820 +02:00 [INF] Content root path: C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection
+2026-05-20 16:03:30.155 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/ - null null
+2026-05-20 16:03:30.229 +02:00 [INF] Executing endpoint '/Index'
+2026-05-20 16:03:30.285 +02:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2026-05-20 16:03:30.299 +02:00 [INF] Executing handler method AnimeCollection.Pages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-20 16:03:30.302 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-20 16:03:30.308 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-20 16:03:30.311 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-20 16:03:31.043 +02:00 [INF] Executed page /Index in 750.577ms
+2026-05-20 16:03:31.046 +02:00 [INF] Executed endpoint '/Index'
+2026-05-20 16:03:31.063 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/ - 200 null text/html; charset=utf-8 912.6854ms
+2026-05-20 16:03:31.087 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/css/site.css?v=vIiqe8-N2OEW-mvRMvPpYOCJTZLFoYVHUc20qIGKOa0 - null null
+2026-05-20 16:03:31.104 +02:00 [INF] The file /css/site.css was not modified
+2026-05-20 16:03:31.107 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/css/site.css?v=vIiqe8-N2OEW-mvRMvPpYOCJTZLFoYVHUc20qIGKOa0 - 304 null text/css 21.1593ms
+2026-05-20 16:04:27.575 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-20 16:04:27.585 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-20 16:04:27.617 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-20 16:04:27.629 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-20 16:04:27.658 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-20 16:04:27.660 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-20 16:04:27.661 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-20 16:04:27.711 +02:00 [INF] Executed page /Personnages/Index in 91.5463ms
+2026-05-20 16:04:27.714 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-20 16:04:27.716 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 140.9292ms
+2026-05-20 16:04:27.789 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/css/site.css?v=vIiqe8-N2OEW-mvRMvPpYOCJTZLFoYVHUc20qIGKOa0 - null null
+2026-05-20 16:04:27.795 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/uploads/6f20cde2-6717-4f41-99c9-ba9505190a91.jpg - null null
+2026-05-20 16:04:27.798 +02:00 [INF] The file /css/site.css was not modified
+2026-05-20 16:04:27.814 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/uploads/771f4d3d-43a3-4867-ad29-0da309944e8a.jpg - null null
+2026-05-20 16:04:27.819 +02:00 [INF] The file /uploads/6f20cde2-6717-4f41-99c9-ba9505190a91.jpg was not modified
+2026-05-20 16:04:27.820 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/uploads/d1656f4b-4bd4-48d1-be4f-313b01aa8168.jpg - null null
+2026-05-20 16:04:27.855 +02:00 [INF] The file /uploads/d1656f4b-4bd4-48d1-be4f-313b01aa8168.jpg was not modified
+2026-05-20 16:04:27.822 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/css/site.css?v=vIiqe8-N2OEW-mvRMvPpYOCJTZLFoYVHUc20qIGKOa0 - 304 null text/css 32.5261ms
+2026-05-20 16:04:27.831 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/uploads/6f20cde2-6717-4f41-99c9-ba9505190a91.jpg - 304 null image/jpeg 35.6079ms
+2026-05-20 16:04:27.832 +02:00 [INF] The file /uploads/771f4d3d-43a3-4867-ad29-0da309944e8a.jpg was not modified
+2026-05-20 16:04:27.821 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/uploads/c161440b-35c6-454c-97f7-e530180d72c7.jpg - null null
+2026-05-20 16:04:27.862 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/uploads/d1656f4b-4bd4-48d1-be4f-313b01aa8168.jpg - 304 null image/jpeg 42.3287ms
+2026-05-20 16:04:27.873 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/uploads/d60fb067-1732-43e7-ae50-6b4948223d34.jpg - null null
+2026-05-20 16:04:27.938 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/uploads/5939c2e2-a7ff-446c-b1b7-1bf69a3be0f1.jpg - null null
+2026-05-20 16:04:27.941 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/uploads/771f4d3d-43a3-4867-ad29-0da309944e8a.jpg - 304 null image/jpeg 127.2671ms
+2026-05-20 16:04:27.944 +02:00 [INF] The file /uploads/c161440b-35c6-454c-97f7-e530180d72c7.jpg was not modified
+2026-05-20 16:04:27.946 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/uploads/1766bf72-b975-4883-bafa-fd7c9dca4dfd.jpg - null null
+2026-05-20 16:04:27.949 +02:00 [INF] The file /uploads/d60fb067-1732-43e7-ae50-6b4948223d34.jpg was not modified
+2026-05-20 16:04:27.954 +02:00 [INF] The file /uploads/5939c2e2-a7ff-446c-b1b7-1bf69a3be0f1.jpg was not modified
+2026-05-20 16:04:27.962 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/uploads/c161440b-35c6-454c-97f7-e530180d72c7.jpg - 304 null image/jpeg 141.5323ms
+2026-05-20 16:04:28.011 +02:00 [INF] The file /uploads/1766bf72-b975-4883-bafa-fd7c9dca4dfd.jpg was not modified
+2026-05-20 16:04:28.047 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/uploads/1766bf72-b975-4883-bafa-fd7c9dca4dfd.jpg - 304 null image/jpeg 100.5681ms
+2026-05-20 16:04:28.023 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/uploads/5939c2e2-a7ff-446c-b1b7-1bf69a3be0f1.jpg - 304 null image/jpeg 84.5597ms
+2026-05-20 16:04:28.014 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/uploads/d60fb067-1732-43e7-ae50-6b4948223d34.jpg - 304 null image/jpeg 141.4383ms
+2026-05-20 16:09:24.300 +02:00 [INF] User profile is available. Using 'C:\Users\fallo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-20 16:09:24.555 +02:00 [INF] Now listening on: http://localhost:5150
+2026-05-20 16:09:24.559 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-20 16:09:24.561 +02:00 [INF] Hosting environment: Development
+2026-05-20 16:09:24.563 +02:00 [INF] Content root path: C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection
+2026-05-20 16:09:27.185 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/ - null null
+2026-05-20 16:09:27.260 +02:00 [INF] Executing endpoint '/Index'
+2026-05-20 16:09:27.321 +02:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2026-05-20 16:09:27.340 +02:00 [INF] Executing handler method AnimeCollection.Pages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-20 16:09:27.344 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-20 16:09:27.352 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-20 16:09:27.354 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-20 16:09:28.119 +02:00 [INF] Executed page /Index in 791.9953ms
+2026-05-20 16:09:28.123 +02:00 [INF] Executed endpoint '/Index'
+2026-05-20 16:09:28.146 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/ - 200 null text/html; charset=utf-8 968.1887ms
+2026-05-20 16:09:28.165 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/css/site.css?v=AyKjRSjiunIJytrayFLn2d9rgojKj-IB9bHG2HKiXlo - null null
+2026-05-20 16:09:28.165 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-05-20 16:09:28.167 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/lib/jquery/dist/jquery.min.js - null null
+2026-05-20 16:09:28.167 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-05-20 16:09:28.168 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/AnimeCollection.styles.css?v=UjIRZ2E2kf3I0Fy-14dzQaMkAGN9sLLYVV9uE_5kntU - null null
+2026-05-20 16:09:28.167 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-05-20 16:09:28.188 +02:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2026-05-20 16:09:28.189 +02:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2026-05-20 16:09:28.194 +02:00 [INF] The file /js/site.js was not modified
+2026-05-20 16:09:28.198 +02:00 [INF] The file /AnimeCollection.styles.css was not modified
+2026-05-20 16:09:28.203 +02:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2026-05-20 16:09:28.203 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 39.5912ms
+2026-05-20 16:09:28.203 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\wwwroot\css\site.css'
+2026-05-20 16:09:28.205 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/lib/jquery/dist/jquery.min.js - 304 null text/javascript 37.8751ms
+2026-05-20 16:09:28.208 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 40.0281ms
+2026-05-20 16:09:28.209 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/AnimeCollection.styles.css?v=UjIRZ2E2kf3I0Fy-14dzQaMkAGN9sLLYVV9uE_5kntU - 304 null text/css 41.6593ms
+2026-05-20 16:09:28.211 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 43.2971ms
+2026-05-20 16:09:28.221 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/css/site.css?v=AyKjRSjiunIJytrayFLn2d9rgojKj-IB9bHG2HKiXlo - 200 5011 text/css 58.0878ms
+2026-05-20 16:09:58.142 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-20 16:09:58.154 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-20 16:09:58.193 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-20 16:09:58.211 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-20 16:09:58.242 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-20 16:09:58.246 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-20 16:09:58.248 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-20 16:09:58.309 +02:00 [INF] Executed page /Personnages/Index in 113.6376ms
+2026-05-20 16:09:58.312 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-20 16:09:58.315 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 172.2988ms
+2026-05-20 16:09:58.384 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/css/site.css?v=AyKjRSjiunIJytrayFLn2d9rgojKj-IB9bHG2HKiXlo - null null
+2026-05-20 16:09:58.395 +02:00 [INF] The file /css/site.css was not modified
+2026-05-20 16:09:58.397 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/css/site.css?v=AyKjRSjiunIJytrayFLn2d9rgojKj-IB9bHG2HKiXlo - 304 null text/css 13.4367ms
+2026-05-20 16:10:20.235 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/ - null null
+2026-05-20 16:10:20.245 +02:00 [INF] Executing endpoint '/Index'
+2026-05-20 16:10:20.248 +02:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2026-05-20 16:10:20.250 +02:00 [INF] Executing handler method AnimeCollection.Pages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-20 16:10:20.255 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-20 16:10:20.259 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-20 16:10:20.263 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-20 16:10:20.282 +02:00 [INF] Executed page /Index in 32.2746ms
+2026-05-20 16:10:20.286 +02:00 [INF] Executed endpoint '/Index'
+2026-05-20 16:10:20.288 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/ - 200 null text/html; charset=utf-8 53.4813ms
+2026-05-20 16:10:20.345 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/css/site.css?v=AyKjRSjiunIJytrayFLn2d9rgojKj-IB9bHG2HKiXlo - null null
+2026-05-20 16:10:20.350 +02:00 [INF] The file /css/site.css was not modified
+2026-05-20 16:10:20.352 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/css/site.css?v=AyKjRSjiunIJytrayFLn2d9rgojKj-IB9bHG2HKiXlo - 304 null text/css 6.5073ms
+2026-05-20 16:10:38.975 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-20 16:10:38.979 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-20 16:10:38.981 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-20 16:10:38.985 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-20 16:10:38.991 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-20 16:10:38.995 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-20 16:10:38.997 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-20 16:10:39.009 +02:00 [INF] Executed page /Personnages/Index in 26.5786ms
+2026-05-20 16:10:39.011 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-20 16:10:39.012 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 37.113ms
+2026-05-20 16:10:39.100 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/css/site.css?v=AyKjRSjiunIJytrayFLn2d9rgojKj-IB9bHG2HKiXlo - null null
+2026-05-20 16:10:39.106 +02:00 [INF] The file /css/site.css was not modified
+2026-05-20 16:10:39.108 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/css/site.css?v=AyKjRSjiunIJytrayFLn2d9rgojKj-IB9bHG2HKiXlo - 304 null text/css 8.7252ms
+2026-05-20 16:12:45.399 +02:00 [INF] User profile is available. Using 'C:\Users\fallo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-20 16:12:45.683 +02:00 [INF] Now listening on: http://localhost:5150
+2026-05-20 16:12:45.687 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-20 16:12:45.689 +02:00 [INF] Hosting environment: Development
+2026-05-20 16:12:45.690 +02:00 [INF] Content root path: C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection
+2026-05-20 16:12:47.005 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/ - null null
+2026-05-20 16:12:47.083 +02:00 [INF] Executing endpoint '/Index'
+2026-05-20 16:12:47.137 +02:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2026-05-20 16:12:47.153 +02:00 [INF] Executing handler method AnimeCollection.Pages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-20 16:12:47.156 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-20 16:12:47.164 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-20 16:12:47.167 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-20 16:12:48.073 +02:00 [INF] Executed page /Index in 928.621ms
+2026-05-20 16:12:48.077 +02:00 [INF] Executed endpoint '/Index'
+2026-05-20 16:12:48.092 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/ - 200 null text/html; charset=utf-8 1089.9954ms
+2026-05-20 16:12:48.117 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/css/site.css?v=TOUw0JfQhv-L6euF23uzjAkgzcaPyDbsk1dBm__9ZFw - null null
+2026-05-20 16:12:48.156 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\wwwroot\css\site.css'
+2026-05-20 16:12:48.174 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/css/site.css?v=TOUw0JfQhv-L6euF23uzjAkgzcaPyDbsk1dBm__9ZFw - 200 5011 text/css 57.7504ms
+2026-05-20 16:12:51.136 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-20 16:12:51.147 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-20 16:12:51.187 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-20 16:12:51.205 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-20 16:12:51.235 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-20 16:12:51.238 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-20 16:12:51.239 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-20 16:12:51.295 +02:00 [INF] Executed page /Personnages/Index in 106.5181ms
+2026-05-20 16:12:51.298 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-20 16:12:51.300 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 164.0249ms
+2026-05-20 16:12:51.364 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/css/site.css?v=TOUw0JfQhv-L6euF23uzjAkgzcaPyDbsk1dBm__9ZFw - null null
+2026-05-20 16:12:51.373 +02:00 [INF] The file /css/site.css was not modified
+2026-05-20 16:12:51.376 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/css/site.css?v=TOUw0JfQhv-L6euF23uzjAkgzcaPyDbsk1dBm__9ZFw - 304 null text/css 11.9014ms
