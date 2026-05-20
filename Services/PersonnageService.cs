@@ -163,19 +163,37 @@ public class PersonnageService
         return rowsAffected > 0;
     }
 
-    public bool Delete(int id)
-    {
-        var command = _connection.CreateCommand();
+public bool Delete(int id)
+{
+    var deleteFavorisCommand = _connection.CreateCommand();
 
-        command.CommandText = """
-            DELETE FROM personnages
-            WHERE id = @id
-            """;
+    deleteFavorisCommand.CommandText =
+        "DELETE FROM favoris WHERE personnageid = @id";
 
-        command.AddParameter("@id", id);
+    deleteFavorisCommand.AddParameter("@id", id);
 
-        var rowsAffected = command.ExecuteNonQuery();
+    deleteFavorisCommand.ExecuteNonQuery();
 
-        return rowsAffected > 0;
-    }
+    var command = _connection.CreateCommand();
+
+    command.CommandText =
+        "DELETE FROM personnages WHERE id = @id";
+
+    command.AddParameter("@id", id);
+
+    var rowsAffected = command.ExecuteNonQuery();
+
+    return rowsAffected > 0;
+}
+
+	public int CountAll()
+	{
+    	var command = _connection.CreateCommand();
+
+    	command.CommandText = "SELECT COUNT(*) FROM personnages";
+
+    	var result = (long)command.ExecuteScalar()!;
+
+    	return (int)result;
+	}
 }

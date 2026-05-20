@@ -84,4 +84,15 @@ public class AnimeService
 
         command.ExecuteNonQuery();
     }
+
+	public int CountAll()
+	{
+   		 var command = _connection.CreateCommand();
+
+    	 command.CommandText = "SELECT COUNT(*) FROM animes";
+
+    	var result = (long)command.ExecuteScalar()!;
+
+    	return (int)result;
+	}
 }

@@ -209,3 +209,21 @@ body {
   box-shadow: 0 0 12px rgba(255, 77, 109, 0.25);
   font-weight: 600;
 }
+
+.stats-box {
+  max-width: 1200px;
+  margin: 1rem auto;
+  padding: 0.8rem 1rem;
+  display: flex;
+  gap: 1.5rem;
+  background: #111111;
+  border: 1px solid #ff4d6d;
+  border-radius: 12px;
+  color: #f5f5f5;
+  box-shadow: 0 0 12px rgba(255, 77, 109, 0.2);
+}
+
+.stats-box span {
+  color: #ff758f;
+  font-weight: 700;
+}

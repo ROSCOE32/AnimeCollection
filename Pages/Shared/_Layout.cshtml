@@ -50,7 +50,7 @@
     <div class="container">
         <main role="main" class="pb-3">
 			<partial name="_Alert" />
-
+			@await Component.InvokeAsync("Stats")
             @RenderBody()
         </main>
     </div>
