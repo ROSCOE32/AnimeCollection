@@ -1,0 +1,50 @@
+@page
+@model AnimeCollection.Pages.Personnages.FavorisModel
+
+@{
+    ViewData["Title"] = "Mes favoris";
+}
+
+<h1>Mes personnages favoris</h1>
+
+@if (!Model.Personnages.Any())
+{
+    <p>Vous n’avez encore aucun favori.</p>
+}
+else
+{
+    <table>
+        <tr>
+            <th>Image</th>
+            <th>Nom</th>
+            <th>Animé</th>
+            <th>Statut</th>
+            <th>Actions</th>
+        </tr>
+
+        @foreach (var personnage in Model.Personnages)
+        {
+            <tr>
+                <td>
+                    @if (!string.IsNullOrEmpty(personnage.ImagePath))
+                    {
+                        <img src="@personnage.ImagePath"
+                             alt="@personnage.Name"
+                             width="80" />
+                    }
+                </td>
+                <td>@personnage.Name</td>
+                <td>@personnage.AnimeTitle</td>
+                <td>@personnage.Status</td>
+                <td>
+                    <a asp-page="Details"
+                       asp-route-id="@personnage.Id">
+                        Détails
+                    </a>
+                </td>
+            </tr>
+        }
+    </table>
+}
+
+<a asp-page="Index">Retour aux personnages</a>

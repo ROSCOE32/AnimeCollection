@@ -40,6 +40,8 @@ builder.Services.AddAuthorization();
 
 builder.Services.AddRazorPages();
 
+builder.Services.AddScoped<FavoriService>();
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())

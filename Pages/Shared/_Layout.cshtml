@@ -42,6 +42,10 @@
                 <a asp-page="/Account/Login">Connexion</a>
                 <a asp-page="/Account/Register">Inscription</a>
             }
+			@if (User.Identity?.IsAuthenticated == true)
+			{
+    			<a asp-page="/Personnages/Favoris">Mes favoris</a>
+			}
         </nav>
     </header>
     <div class="container">

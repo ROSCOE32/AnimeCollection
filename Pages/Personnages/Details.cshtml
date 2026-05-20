@@ -5,8 +5,21 @@
     ViewData["Title"] = "Détails du personnage";
 }
 
+
+
 <h1>@Model.Personnage.Name</h1>
 
+@if (User.Identity?.IsAuthenticated == true)
+{
+    <form method="post"
+          asp-page-handler="ToggleFavorite"
+          asp-route-id="@Model.Personnage.Id">
+
+        <button type="submit">
+            @(Model.IsFavorite ? "Retirer des favoris" : "Ajouter aux favoris")
+        </button>
+    </form>
+}
 <p>
     <strong>Animé :</strong>
     @Model.Personnage.AnimeTitle

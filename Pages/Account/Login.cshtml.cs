@@ -66,7 +66,8 @@ public class LoginModel : PageModel
         {
             new(ClaimTypes.Name, user.Name),
             new(ClaimTypes.Email, user.Email),
-            new(ClaimTypes.Role, user.Role)
+            new(ClaimTypes.Role, user.Role),
+            new(ClaimTypes.NameIdentifier, user.Id.ToString())
         };
 
         var identity = new ClaimsIdentity(
