@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace AnimeCollection.Pages.Personnages;
 
-[Authorize]
+[Authorize(Roles = "Admin")]
 public class EditModel : PageModel
 {
     private readonly PersonnageService _personnageService;

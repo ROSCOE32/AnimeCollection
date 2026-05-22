@@ -47,12 +47,14 @@
         }
 
         <div class="details-actions">
+			@if (User.IsInRole("Admin"))
+			{
             <a class="btn-secondary"
                asp-page="Edit"
                asp-route-id="@Model.Personnage.Id">
                 Modifier
             </a>
-
+			}
             <a class="btn-secondary"
                asp-page="Index">
                 Retour
