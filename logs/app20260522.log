@@ -1,0 +1,114 @@
+2026-05-22 11:48:29.329 +02:00 [INF] User profile is available. Using 'C:\Users\fallo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-22 11:48:29.559 +02:00 [INF] Now listening on: http://localhost:5150
+2026-05-22 11:48:29.562 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-22 11:48:29.563 +02:00 [INF] Hosting environment: Development
+2026-05-22 11:48:29.564 +02:00 [INF] Content root path: C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection
+2026-05-22 11:48:38.343 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/ - null null
+2026-05-22 11:48:38.402 +02:00 [INF] Executing endpoint '/Index'
+2026-05-22 11:48:38.459 +02:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2026-05-22 11:48:38.473 +02:00 [INF] Executing handler method AnimeCollection.Pages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-22 11:48:38.476 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-22 11:48:38.483 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-22 11:48:38.485 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-22 11:48:39.431 +02:00 [INF] Executed page /Index in 964.1831ms
+2026-05-22 11:48:39.491 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2026-05-22 11:48:39.494 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/css/site.css?v=1hEJxKaO938CJRLI4ge_ol1OKt1KCr4JNNumrrBto9c - null null
+2026-05-22 11:48:39.497 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/AnimeCollection.styles.css?v=UjIRZ2E2kf3I0Fy-14dzQaMkAGN9sLLYVV9uE_5kntU - null null
+2026-05-22 11:48:39.523 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2026-05-22 11:48:39.545 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/lib/jquery/dist/jquery.min.js - null null
+2026-05-22 11:48:39.595 +02:00 [INF] Executed endpoint '/Index'
+2026-05-22 11:48:39.742 +02:00 [INF] Sending file. Request path: '/AnimeCollection.styles.css'. Physical path: 'C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\obj\Debug\net10.0\scopedcss\bundle\AnimeCollection.styles.css'
+2026-05-22 11:48:39.743 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2026-05-22 11:48:39.743 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\wwwroot\css\site.css'
+2026-05-22 11:48:39.746 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2026-05-22 11:48:39.754 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\wwwroot\lib\jquery\dist\jquery.min.js'
+2026-05-22 11:48:39.762 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/AnimeCollection.styles.css?v=UjIRZ2E2kf3I0Fy-14dzQaMkAGN9sLLYVV9uE_5kntU - 200 1109 text/css 264.2971ms
+2026-05-22 11:48:39.766 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/ - 200 null text/html; charset=utf-8 1426.1231ms
+2026-05-22 11:48:39.767 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/lib/bootstrap/dist/css/bootstrap.min.css - 200 232803 text/css 276.8337ms
+2026-05-22 11:48:39.773 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/css/site.css?v=1hEJxKaO938CJRLI4ge_ol1OKt1KCr4JNNumrrBto9c - 200 8578 text/css 278.7009ms
+2026-05-22 11:48:39.781 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80721 text/javascript 257.721ms
+2026-05-22 11:48:39.785 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/lib/jquery/dist/jquery.min.js - 200 87533 text/javascript 240.72ms
+2026-05-22 11:48:40.027 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2026-05-22 11:48:40.123 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\wwwroot\js\site.js'
+2026-05-22 11:48:40.179 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 151.7977ms
+2026-05-22 11:48:46.989 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Account/Register - null null
+2026-05-22 11:48:46.995 +02:00 [INF] Executing endpoint '/Account/Register'
+2026-05-22 11:48:47.031 +02:00 [INF] Route matched with {page = "/Account/Register"}. Executing page /Account/Register
+2026-05-22 11:48:47.044 +02:00 [INF] Executing handler method AnimeCollection.Pages.Account.RegisterModel.OnGet - ModelState is "Valid"
+2026-05-22 11:48:47.046 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-22 11:48:47.048 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-22 11:48:47.052 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-22 11:48:47.129 +02:00 [INF] Executed page /Account/Register in 92.9769ms
+2026-05-22 11:48:47.131 +02:00 [INF] Executed endpoint '/Account/Register'
+2026-05-22 11:48:47.133 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Account/Register - 200 null text/html; charset=utf-8 144.2034ms
+2026-05-22 11:48:50.532 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages - null null
+2026-05-22 11:48:50.540 +02:00 [INF] Executing endpoint '/Personnages/Index'
+2026-05-22 11:48:50.554 +02:00 [INF] Route matched with {page = "/Personnages/Index"}. Executing page /Personnages/Index
+2026-05-22 11:48:50.561 +02:00 [INF] Executing handler method AnimeCollection.Pages.Personnages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-22 11:48:50.592 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-22 11:48:50.595 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-22 11:48:50.596 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-22 11:48:50.627 +02:00 [INF] Executed page /Personnages/Index in 71.4235ms
+2026-05-22 11:48:50.629 +02:00 [INF] Executed endpoint '/Personnages/Index'
+2026-05-22 11:48:50.630 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages - 200 null text/html; charset=utf-8 98.6458ms
+2026-05-22 11:48:50.676 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/uploads/463b3c31-6788-4743-8aa5-d08f56259830.jpg - null null
+2026-05-22 11:48:50.677 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/uploads/3e566de0-387a-49bf-9941-d6ed8cd4fb4f.jpg - null null
+2026-05-22 11:48:50.677 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/uploads/d1656f4b-4bd4-48d1-be4f-313b01aa8168.jpg - null null
+2026-05-22 11:48:50.677 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/uploads/27ed9353-76c1-4149-b4f6-06527a02f42a.jpg - null null
+2026-05-22 11:48:50.678 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/uploads/771f4d3d-43a3-4867-ad29-0da309944e8a.jpg - null null
+2026-05-22 11:48:50.678 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/uploads/c161440b-35c6-454c-97f7-e530180d72c7.jpg - null null
+2026-05-22 11:48:50.686 +02:00 [INF] Sending file. Request path: '/uploads/463b3c31-6788-4743-8aa5-d08f56259830.jpg'. Physical path: 'C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\wwwroot\uploads\463b3c31-6788-4743-8aa5-d08f56259830.jpg'
+2026-05-22 11:48:50.687 +02:00 [INF] Sending file. Request path: '/uploads/3e566de0-387a-49bf-9941-d6ed8cd4fb4f.jpg'. Physical path: 'C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\wwwroot\uploads\3e566de0-387a-49bf-9941-d6ed8cd4fb4f.jpg'
+2026-05-22 11:48:50.706 +02:00 [INF] Sending file. Request path: '/uploads/27ed9353-76c1-4149-b4f6-06527a02f42a.jpg'. Physical path: 'C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\wwwroot\uploads\27ed9353-76c1-4149-b4f6-06527a02f42a.jpg'
+2026-05-22 11:48:50.708 +02:00 [INF] Sending file. Request path: '/uploads/d1656f4b-4bd4-48d1-be4f-313b01aa8168.jpg'. Physical path: 'C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\wwwroot\uploads\d1656f4b-4bd4-48d1-be4f-313b01aa8168.jpg'
+2026-05-22 11:48:50.732 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/uploads/d1656f4b-4bd4-48d1-be4f-313b01aa8168.jpg - 200 118176 image/jpeg 54.9515ms
+2026-05-22 11:48:50.740 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/uploads/b96057f7-0b09-4109-892d-bfcc4a9c7cc4.jpg - null null
+2026-05-22 11:48:50.724 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/uploads/3e566de0-387a-49bf-9941-d6ed8cd4fb4f.jpg - 200 60151 image/jpeg 46.5774ms
+2026-05-22 11:48:50.726 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/uploads/27ed9353-76c1-4149-b4f6-06527a02f42a.jpg - 200 62321 image/jpeg 48.5718ms
+2026-05-22 11:48:50.728 +02:00 [INF] Sending file. Request path: '/uploads/c161440b-35c6-454c-97f7-e530180d72c7.jpg'. Physical path: 'C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\wwwroot\uploads\c161440b-35c6-454c-97f7-e530180d72c7.jpg'
+2026-05-22 11:48:50.713 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/uploads/463b3c31-6788-4743-8aa5-d08f56259830.jpg - 200 26442 image/jpeg 36.5553ms
+2026-05-22 11:48:50.724 +02:00 [INF] Sending file. Request path: '/uploads/771f4d3d-43a3-4867-ad29-0da309944e8a.jpg'. Physical path: 'C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\wwwroot\uploads\771f4d3d-43a3-4867-ad29-0da309944e8a.jpg'
+2026-05-22 11:48:50.761 +02:00 [INF] Sending file. Request path: '/uploads/b96057f7-0b09-4109-892d-bfcc4a9c7cc4.jpg'. Physical path: 'C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\wwwroot\uploads\b96057f7-0b09-4109-892d-bfcc4a9c7cc4.jpg'
+2026-05-22 11:48:50.769 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/uploads/5939c2e2-a7ff-446c-b1b7-1bf69a3be0f1.jpg - null null
+2026-05-22 11:48:50.771 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/uploads/d60fb067-1732-43e7-ae50-6b4948223d34.jpg - null null
+2026-05-22 11:48:50.771 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/uploads/c161440b-35c6-454c-97f7-e530180d72c7.jpg - 200 105484 image/jpeg 93.1508ms
+2026-05-22 11:48:50.799 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/uploads/1766bf72-b975-4883-bafa-fd7c9dca4dfd.jpg - null null
+2026-05-22 11:48:50.776 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/uploads/771f4d3d-43a3-4867-ad29-0da309944e8a.jpg - 200 69207 image/jpeg 98.0453ms
+2026-05-22 11:48:50.809 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/uploads/c0fd1f0c-0392-4cca-b9a1-d9613826d2e6.jpg - null null
+2026-05-22 11:48:50.788 +02:00 [INF] Sending file. Request path: '/uploads/5939c2e2-a7ff-446c-b1b7-1bf69a3be0f1.jpg'. Physical path: 'C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\wwwroot\uploads\5939c2e2-a7ff-446c-b1b7-1bf69a3be0f1.jpg'
+2026-05-22 11:48:50.775 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/uploads/e1510880-9392-474e-9395-366ae153692b.jpg - null null
+2026-05-22 11:48:50.804 +02:00 [INF] Sending file. Request path: '/uploads/d60fb067-1732-43e7-ae50-6b4948223d34.jpg'. Physical path: 'C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\wwwroot\uploads\d60fb067-1732-43e7-ae50-6b4948223d34.jpg'
+2026-05-22 11:48:50.778 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/uploads/b96057f7-0b09-4109-892d-bfcc4a9c7cc4.jpg - 200 116323 image/jpeg 37.9361ms
+2026-05-22 11:48:50.813 +02:00 [INF] Sending file. Request path: '/uploads/1766bf72-b975-4883-bafa-fd7c9dca4dfd.jpg'. Physical path: 'C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\wwwroot\uploads\1766bf72-b975-4883-bafa-fd7c9dca4dfd.jpg'
+2026-05-22 11:48:50.814 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/uploads/5939c2e2-a7ff-446c-b1b7-1bf69a3be0f1.jpg - 200 59119 image/jpeg 45.0657ms
+2026-05-22 11:48:50.823 +02:00 [INF] Sending file. Request path: '/uploads/c0fd1f0c-0392-4cca-b9a1-d9613826d2e6.jpg'. Physical path: 'C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\wwwroot\uploads\c0fd1f0c-0392-4cca-b9a1-d9613826d2e6.jpg'
+2026-05-22 11:48:50.852 +02:00 [INF] Sending file. Request path: '/uploads/e1510880-9392-474e-9395-366ae153692b.jpg'. Physical path: 'C:\BAC 2-3\App info 2\ProjetAppInfo2\AnimeCollection\wwwroot\uploads\e1510880-9392-474e-9395-366ae153692b.jpg'
+2026-05-22 11:48:50.955 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/uploads/d60fb067-1732-43e7-ae50-6b4948223d34.jpg - 200 122109 image/jpeg 183.9752ms
+2026-05-22 11:48:50.960 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/uploads/1766bf72-b975-4883-bafa-fd7c9dca4dfd.jpg - 200 63439 image/jpeg 160.8892ms
+2026-05-22 11:48:50.967 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/uploads/c0fd1f0c-0392-4cca-b9a1-d9613826d2e6.jpg - 200 121867 image/jpeg 158.0307ms
+2026-05-22 11:48:50.968 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/uploads/e1510880-9392-474e-9395-366ae153692b.jpg - 200 104741 image/jpeg 192.9208ms
+2026-05-22 11:48:56.589 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Personnages/Create - null null
+2026-05-22 11:48:56.617 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-05-22 11:48:56.621 +02:00 [INF] AuthenticationScheme: CookieAuth was challenged.
+2026-05-22 11:48:56.623 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Personnages/Create - 302 0 null 34.2495ms
+2026-05-22 11:48:56.629 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/Account/Login?ReturnUrl=%2FPersonnages%2FCreate - null null
+2026-05-22 11:48:56.633 +02:00 [INF] Executing endpoint '/Account/Login'
+2026-05-22 11:48:56.650 +02:00 [INF] Route matched with {page = "/Account/Login"}. Executing page /Account/Login
+2026-05-22 11:48:56.659 +02:00 [INF] Executing handler method AnimeCollection.Pages.Account.LoginModel.OnGet - ModelState is "Valid"
+2026-05-22 11:48:56.662 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-22 11:48:56.664 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-22 11:48:56.665 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-22 11:48:56.702 +02:00 [INF] Executed page /Account/Login in 49.3858ms
+2026-05-22 11:48:56.704 +02:00 [INF] Executed endpoint '/Account/Login'
+2026-05-22 11:48:56.705 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/Account/Login?ReturnUrl=%2FPersonnages%2FCreate - 200 null text/html; charset=utf-8 76.3149ms
+2026-05-22 11:49:00.661 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5150/ - null null
+2026-05-22 11:49:00.665 +02:00 [INF] Executing endpoint '/Index'
+2026-05-22 11:49:00.670 +02:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2026-05-22 11:49:00.671 +02:00 [INF] Executing handler method AnimeCollection.Pages.IndexModel.OnGet - ModelState is "Valid"
+2026-05-22 11:49:00.673 +02:00 [INF] Executed handler method OnGet, returned result .
+2026-05-22 11:49:00.675 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2026-05-22 11:49:00.677 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2026-05-22 11:49:00.682 +02:00 [INF] Executed page /Index in 11.5031ms
+2026-05-22 11:49:00.684 +02:00 [INF] Executed endpoint '/Index'
+2026-05-22 11:49:00.687 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5150/ - 200 null text/html; charset=utf-8 25.423ms

@@ -5,45 +5,49 @@
     ViewData["Title"] = "Ajouter un personnage";
 }
 
-<h1>Ajouter un personnage</h1>
+<section class="form-card">
+    <h1>Ajouter un personnage</h1>
 
-<form method="post" enctype="multipart/form-data">
-    <div asp-validation-summary="All"></div>
+    <form method="post" enctype="multipart/form-data">
+        <div asp-validation-summary="All" class="validation-summary"></div>
 
-    <div>
-        <label asp-for="Personnage.Name"></label>
-        <input asp-for="Personnage.Name" />
-        <span asp-validation-for="Personnage.Name"></span>
-    </div>
+        <div class="form-group">
+            <label asp-for="Personnage.Name"></label>
+            <input asp-for="Personnage.Name" />
+            <span asp-validation-for="Personnage.Name"></span>
+        </div>
 
-    <div>
-        <label asp-for="Personnage.Description"></label>
-        <textarea asp-for="Personnage.Description"></textarea>
-        <span asp-validation-for="Personnage.Description"></span>
-    </div>
+        <div class="form-group">
+            <label asp-for="Personnage.Description"></label>
+            <textarea asp-for="Personnage.Description"></textarea>
+            <span asp-validation-for="Personnage.Description"></span>
+        </div>
 
-    <div>
-        <label asp-for="Personnage.Status"></label>
-        <select asp-for="Personnage.Status" asp-items="Model.StatusOptions">
-            <option value="">-- Choisir un statut --</option>
-        </select>
-        <span asp-validation-for="Personnage.Status"></span>
-    </div>
+        <div class="form-group">
+            <label asp-for="Personnage.Status"></label>
+            <select asp-for="Personnage.Status" asp-items="Model.StatusOptions">
+                <option value="">-- Choisir un statut --</option>
+            </select>
+            <span asp-validation-for="Personnage.Status"></span>
+        </div>
 
-    <div>
-        <label asp-for="Personnage.AnimeId"></label>
-        <select asp-for="Personnage.AnimeId" asp-items="Model.AnimeOptions">
-            <option value="">-- Choisir un animé --</option>
-        </select>
-        <span asp-validation-for="Personnage.AnimeId"></span>
-    </div>
-    <div>
-        <label asp-for="Image">Image du personnage</label>
-        <input type="file" asp-for="Image" />
-        <span asp-validation-for="Image"></span>
-    </div>
+        <div class="form-group">
+            <label asp-for="Personnage.AnimeId"></label>
+            <select asp-for="Personnage.AnimeId" asp-items="Model.AnimeOptions">
+                <option value="">-- Choisir un animé --</option>
+            </select>
+            <span asp-validation-for="Personnage.AnimeId"></span>
+        </div>
 
-    <button type="submit">Ajouter</button>
-</form>
+        <div class="form-group">
+            <label asp-for="Image">Image du personnage</label>
+            <input type="file" asp-for="Image" />
+            <span asp-validation-for="Image"></span>
+        </div>
 
-<a asp-page="Index">Retour à la liste</a>	
+        <div class="form-actions">
+            <button class="btn" type="submit">Ajouter</button>
+            <a class="btn-secondary" asp-page="Index">Retour</a>
+        </div>
+    </form>
+</section>

@@ -5,46 +5,59 @@
     ViewData["Title"] = "Mes favoris";
 }
 
-<h1>Mes personnages favoris</h1>
+<h1>Mes favoris</h1>
+
+<p class="page-subtitle">
+    Retrouve ici tes personnages d’animés préférés.
+</p>
 
 @if (!Model.Personnages.Any())
 {
-    <p>Vous n’avez encore aucun favori.</p>
+    <div class="empty-state">
+        <h2>Aucun favori pour le moment</h2>
+        <p>Ajoute des personnages à tes favoris depuis leur page de détails.</p>
+
+        <a class="btn" asp-page="Index">
+            Voir les personnages
+        </a>
+    </div>
 }
 else
 {
-    <table>
-        <tr>
-            <th>Image</th>
-            <th>Nom</th>
-            <th>Animé</th>
-            <th>Statut</th>
-            <th>Actions</th>
-        </tr>
-
+    <div class="card-grid">
         @foreach (var personnage in Model.Personnages)
         {
-            <tr>
-                <td>
-                    @if (!string.IsNullOrEmpty(personnage.ImagePath))
-                    {
-                        <img src="@personnage.ImagePath"
-                             alt="@personnage.Name"
-                             width="80" />
-                    }
-                </td>
-                <td>@personnage.Name</td>
-                <td>@personnage.AnimeTitle</td>
-                <td>@personnage.Status</td>
-                <td>
-                    <a asp-page="Details"
-                       asp-route-id="@personnage.Id">
-                        Détails
-                    </a>
-                </td>
-            </tr>
+            <div class="character-card">
+                @if (!string.IsNullOrEmpty(personnage.ImagePath))
+                {
+                    <img src="@personnage.ImagePath"
+                         alt="@personnage.Name"
+                         class="character-image" />
+                }
+
+                <div class="character-content">
+                    <h2>@personnage.Name</h2>
+
+                    <p><strong>Animé :</strong> @personnage.AnimeTitle</p>
+                    <p><strong>Statut :</strong> @personnage.Status</p>
+
+                    <div class="card-actions">
+                        <a asp-page="Details"
+                           asp-route-id="@personnage.Id">
+                            Détails
+                        </a>
+                    </div>
+                </div>
+            </div>
         }
-    </table>
+    </div>
 }
 
-<a asp-page="Index">Retour aux personnages</a>
+<div class="back-link-container">
+    <a class="btn-secondary"
+       asp-page="Index">
+
+        Retour aux personnages
+
+    </a>
+</div>

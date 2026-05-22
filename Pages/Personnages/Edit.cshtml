@@ -5,86 +5,74 @@
     ViewData["Title"] = "Modifier un personnage";
 }
 
-<h1>Modifier un personnage</h1>
+<section class="form-card">
+    <h1>Modifier un personnage</h1>
 
-<form method="post" enctype="multipart/form-data">
+    <form method="post" enctype="multipart/form-data">
 
-    <input type="hidden" asp-for="Personnage.Id" />
-	<input type="hidden" asp-for="Personnage.ImagePath" /> <!--Envoie l'image déjà présente-->
+        <input type="hidden" asp-for="Personnage.Id" />
+        <input type="hidden" asp-for="Personnage.ImagePath" />
 
+        <div asp-validation-summary="All" class="validation-summary"></div>
 
-    <div asp-validation-summary="All"></div>
+        <div class="form-group">
+            <label asp-for="Personnage.Name"></label>
+            <input asp-for="Personnage.Name" />
+            <span asp-validation-for="Personnage.Name"></span>
+        </div>
 
-    <div>
-        <label asp-for="Personnage.Name"></label>
-        <input asp-for="Personnage.Name" />
-        <span asp-validation-for="Personnage.Name"></span>
-    </div>
+        <div class="form-group">
+            <label asp-for="Personnage.Description"></label>
+            <textarea asp-for="Personnage.Description"></textarea>
+            <span asp-validation-for="Personnage.Description"></span>
+        </div>
 
-    <div>
-        <label asp-for="Personnage.Description"></label>
-        <textarea asp-for="Personnage.Description"></textarea>
-        <span asp-validation-for="Personnage.Description"></span>
-    </div>
+        <div class="form-group">
+            <label asp-for="Personnage.Status"></label>
 
-    <div>
-        <label asp-for="Personnage.Status"></label>
+            <select asp-for="Personnage.Status"
+                    asp-items="Model.StatusOptions">
+                <option value="">-- Choisir un statut --</option>
+            </select>
 
-        <select asp-for="Personnage.Status"
-                asp-items="Model.StatusOptions">
+            <span asp-validation-for="Personnage.Status"></span>
+        </div>
 
-            <option value="">
-                -- Choisir un statut --
-            </option>
+        <div class="form-group">
+            <label asp-for="Personnage.AnimeId"></label>
 
-        </select>
+            <select asp-for="Personnage.AnimeId"
+                    asp-items="Model.AnimeOptions">
+                <option value="">-- Choisir un animé --</option>
+            </select>
 
-        <span asp-validation-for="Personnage.Status"></span>
-    </div>
+            <span asp-validation-for="Personnage.AnimeId"></span>
+        </div>
 
-    <div>
-        <label asp-for="Personnage.AnimeId"></label>
+        @if (!string.IsNullOrEmpty(Model.Personnage.ImagePath))
+        {
+            <div class="current-image-box">
+                <p>Image actuelle</p>
 
-        <select asp-for="Personnage.AnimeId"
-                asp-items="Model.AnimeOptions">
+                <img src="@Model.Personnage.ImagePath"
+                     alt="@Model.Personnage.Name" />
+            </div>
+        }
 
-            <option value="">
-                -- Choisir un animé --
-            </option>
+        <div class="form-group">
+            <label asp-for="Image">Nouvelle image</label>
+            <input type="file" asp-for="Image" />
+            <span asp-validation-for="Image"></span>
+        </div>
 
-        </select>
+        <div class="form-actions">
+            <button class="btn" type="submit">
+                Sauvegarder
+            </button>
 
-        <span asp-validation-for="Personnage.AnimeId"></span>
-    </div>
-    @if (!string.IsNullOrEmpty(Model.Personnage.ImagePath))
-    {
-        <p>Image actuelle :</p>
-
-        <img src="@Model.Personnage.ImagePath"
-             alt="@Model.Personnage.Name"
-             width="200" />
-    }
-    <div>
-
-        <label asp-for="Image">
-            Nouvelle image
-        </label>
-
-        <input type="file"
-               asp-for="Image" />
-
-        <span asp-validation-for="Image"></span>
-
-    </div>
-
-    <button type="submit">
-        Sauvegarder
-    </button>
-
-</form>
-
-<p>
-    <a asp-page="Index">
-        Retour à la liste
-    </a>
-</p>
+            <a class="btn-secondary" asp-page="Index">
+                Retour
+            </a>
+        </div>
+    </form>
+</section>

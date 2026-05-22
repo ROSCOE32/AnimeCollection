@@ -5,43 +5,58 @@
     ViewData["Title"] = "Détails du personnage";
 }
 
+<section class="details-card">
+    <div class="details-image-container">
+        @if (!string.IsNullOrEmpty(Model.Personnage.ImagePath))
+        {
+            <img src="@Model.Personnage.ImagePath"
+                 alt="@Model.Personnage.Name"
+                 class="details-image" />
+        }
+    </div>
 
+    <div class="details-content">
+        <p class="details-kicker">Fiche personnage</p>
 
-<h1>@Model.Personnage.Name</h1>
+        <h1>@Model.Personnage.Name</h1>
 
-@if (User.Identity?.IsAuthenticated == true)
-{
-    <form method="post"
-          asp-page-handler="ToggleFavorite"
-          asp-route-id="@Model.Personnage.Id">
+        <p>
+            <strong>Animé :</strong>
+            @Model.Personnage.AnimeTitle
+        </p>
 
-        <button type="submit">
-            @(Model.IsFavorite ? "Retirer des favoris" : "Ajouter aux favoris")
-        </button>
-    </form>
-}
-<p>
-    <strong>Animé :</strong>
-    @Model.Personnage.AnimeTitle
-</p>
+        <p>
+            <strong>Statut :</strong>
+            @Model.Personnage.Status
+        </p>
 
-<p>
-    <strong>Statut :</strong>
-    @Model.Personnage.Status
-</p>
+        <p class="details-description">
+            @Model.Personnage.Description
+        </p>
 
-<p>
-    <strong>Description :</strong>
-    @Model.Personnage.Description
-</p>
+        @if (User.Identity?.IsAuthenticated == true)
+        {
+            <form method="post"
+                  asp-page-handler="ToggleFavorite"
+                  asp-route-id="@Model.Personnage.Id">
 
-@if (!string.IsNullOrEmpty(Model.Personnage.ImagePath))
-{
-    <img src="@Model.Personnage.ImagePath" alt="@Model.Personnage.Name" width="300" />
-}
+                <button class="btn" type="submit">
+                    @(Model.IsFavorite ? "Retirer des favoris" : "Ajouter aux favoris")
+                </button>
+            </form>
+        }
 
-<p>
-    <a asp-page="Edit" asp-route-id="@Model.Personnage.Id">Modifier</a>
-    |
-    <a asp-page="Index">Retour à la liste</a>
-</p>
+        <div class="details-actions">
+            <a class="btn-secondary"
+               asp-page="Edit"
+               asp-route-id="@Model.Personnage.Id">
+                Modifier
+            </a>
+
+            <a class="btn-secondary"
+               asp-page="Index">
+                Retour
+            </a>
+        </div>
+    </div>
+</section>

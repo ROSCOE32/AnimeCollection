@@ -5,30 +5,33 @@
     ViewData["Title"] = "Inscription";
 }
 
-<h1>Inscription</h1>
+<section class="form-card">
+    <h1>Inscription</h1>
 
-<form method="post">
-    <div asp-validation-summary="All"></div>
+    <form method="post">
+        <div asp-validation-summary="All" class="validation-summary"></div>
 
-    <div>
-        <label asp-for="Name"></label>
-        <input asp-for="Name" />
-        <span asp-validation-for="Name"></span>
-    </div>
+        <div class="form-group">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" />
+            <span asp-validation-for="Name"></span>
+        </div>
 
-    <div>
-        <label asp-for="Email"></label>
-        <input asp-for="Email" type="email" />
-        <span asp-validation-for="Email"></span>
-    </div>
+        <div class="form-group">
+            <label asp-for="Email"></label>
+            <input asp-for="Email" type="email" />
+            <span asp-validation-for="Email"></span>
+        </div>
 
-    <div>
-        <label asp-for="Password"></label>
-        <input asp-for="Password" type="password" />
-        <span asp-validation-for="Password"></span>
-    </div>
+        <div class="form-group">
+            <label asp-for="Password"></label>
+            <input asp-for="Password" type="password" />
+            <span asp-validation-for="Password"></span>
+        </div>
 
-    <button type="submit">Créer le compte</button>
-</form>
-
-<a asp-page="Login">Déjà un compte ? Se connecter</a>
+        <div class="form-actions">
+            <button class="btn" type="submit">Créer le compte</button>
+            <a class="btn-secondary" asp-page="Login">Déjà un compte ?</a>
+        </div>
+    </form>
+</section>

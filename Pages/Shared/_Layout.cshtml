@@ -40,10 +40,6 @@
                     <a asp-page="/Account/Register">Inscription</a>
                 }
             </div>
-			@if (User.Identity?.IsAuthenticated == true)
-			{
-    			<a asp-page="/Personnages/Favoris">Mes favoris</a>
-			}
         </nav>
     </header>
 
